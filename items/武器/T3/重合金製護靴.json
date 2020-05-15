@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Heavy_Boots",
+  "type": "IRON_BOOTS",
+  "displayName": "&3【裝備】重合金製護靴",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f從古代遺址中發現出來的產物",
+	"&F利用現時幾乎找不到的重合金",
+	"&再加上高超冶煉技術製作出來裝備",
+	"&有着能將所以東西粉碎的力量"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

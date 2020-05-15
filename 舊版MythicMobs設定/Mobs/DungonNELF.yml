@@ -1,0 +1,192 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DUNGEONNELF_M1:
+  Type: ZOMBIE
+  Display: '夜精靈守衛&8[&6LV 15&8]'
+  Health: 350
+  Damage: 15
+  Faction: Monster
+  Equipment:
+  - DUNGEONNELF_ITEM1:4
+  - DUNGEONNELF_BODYARMOR:3
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Drops:
+  - DUNG_001 1 0.9
+DUNGEONNELF_M2:
+  Type: ZOMBIE
+  Display: '夜精靈屠夫&8[&6LV 17&8]'
+  Health: 550
+  Damage: 30
+  Faction: Monster
+  Equipment:
+  - DUNGEONNELF_ITEM1:4
+  - DUNGEONNELF_BODYARMOR:3
+  - DUNGEONNELF_ARMOR1:2
+  - DUNGEONNELF_FEET1:1
+  - DUNGEONNELF_ITEM3:0
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    MaxCombatDistance: 10
+
+DUNGEONNELF_M2_HARD:
+  Type: ZOMBIE
+  Display: '夜精靈屠夫&8[&6LV 23&8]'
+  Health: 1050
+  Damage: 40
+  Faction: Monster
+  Equipment:
+  - DUNGEONNELF_ITEM1:4
+  - DUNGEONNELF_BODYARMOR:3
+  - DUNGEONNELF_ARMOR1:2
+  - DUNGEONNELF_FEET1:1
+  - DUNGEONNELF_ITEM3:0
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    MaxCombatDistance: 10
+
+DUNGEONNELF_M3:
+  Type: SKELETON
+  Display: '獨眼的夜精靈&8[&6LV 18&8]'
+  Health: 1000
+  Damage: 20
+  Faction: Monster
+  Equipment:
+  - DUNGEONNELF_ITEM1:4
+  - DUNGEONNELF_BODYARMOR:3
+  - DUNGEONNELF_ARMOR1:2
+  - DUNGEONNELF_FEET1:1
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    MaxCombatDistance: 10
+
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEONNELF_M3_HARD:
+  Type: SKELETON
+  Display: '獨眼的夜精靈&8[&6LV 24&8]'
+  Health: 2000
+  Damage: 30
+  Faction: Monster
+  Equipment:
+  - DUNGEONNELF_ITEM1:4
+  - DUNGEONNELF_BODYARMOR:3
+  - DUNGEONNELF_ARMOR1:2
+  - DUNGEONNELF_FEET1:1
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    MaxCombatDistance: 10
+
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+ZD17:
+  Type: ZOMBIE
+  Display: '&7吉里巴特 §6§l突入'
+  Health: 2750
+  Damage: 35
+  Faction: Monster
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    MaxCombatDistance: 10
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - ZD17_1:4
+  - ZD17_2:3
+  - ZD17_3:2
+  - ZD17_1:0
+  Drops:
+  - exp 5
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+ZD17_HARD:
+  Type: ZOMBIE
+  Display: '&7吉里巴特 §6§l突入'
+  Health: 5450
+  Damage: 45
+  Faction: Monster
+  Options:
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    MaxCombatDistance: 10
+  Modules:
+    ThreatTable: true
+  Equipment:
+  - ZD17_1:4
+  - ZD17_2:3
+  - ZD17_3:2
+  - ZD17_1:0
+  Drops:
+  - exp 5
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+cc:
+  Type: Zombie
+  Display: '§c吉里耶里拉◎§6§lBOSS'
+  Health: 10000
+  Damage: 35
+  Faction: Monster
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Player: "§c吉里耶里拉◎§6§lBOSS"
+    Skin: Buffallo
+  Equipment:
+  - NIGHTELFSPEC:0
+  Options:
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    FollowRange: 70
+    MaxCombatDistance: 15
+    ShowHealth: true
+  Drops:
+  - exp 5
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+cc_hard:
+  Type: Zombie
+  Display: '§c吉里耶里拉◎§6§lBOSS'
+  Health: 13000
+  Damage: 40
+  Faction: Monster
+  Modules:
+    ThreatTable: true
+  Disguise:
+    Type: player
+    Player: "§c吉里耶里拉◎§6§lBOSS"
+    Skin: Buffallo
+  Equipment:
+  - NIGHTELFSPEC:0
+  Options:
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    FollowRange: 70
+    MaxCombatDistance: 15
+    ShowHealth: true
+  Drops:
+  - exp 5
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  - skill{s=ELFBolt} @target ~onTimer:40

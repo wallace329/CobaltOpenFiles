@@ -1,0 +1,25 @@
+{
+  "cobaltId": "BOWSTRING_1",
+  "type": "STRING",
+  "displayName": "&f【素材】弓弦",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f利用雲絲編織而成的粗線",
+	"&f有一定的厚度但同時也不失韌性"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

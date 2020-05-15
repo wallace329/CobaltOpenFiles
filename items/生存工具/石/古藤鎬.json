@@ -1,0 +1,26 @@
+{
+  "cobaltId": "GutoPICKAXE",
+  "type": "WOODEN_PICKAXE",
+  "displayName": "&a【工具】古藤鎬",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f利用精靈島上的遠古植物製造",
+	"&f因具頑強生命力而不容易受到損傷",
+	"&f但是因植物的習性導致挖掘速度下降"
+  ],
+  "enchants": {
+	"Unbreaking": 5
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

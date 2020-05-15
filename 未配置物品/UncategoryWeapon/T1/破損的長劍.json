@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Broken_Long_Sword",
+  "type": "STONE_SWORD",
+  "displayName": "&f【武器】破損的長劍",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f這是一把使用過的長劍",
+	"&f每一位劍士都能與他自己的劍進行溝通",
+	"&f而這把破舊的長劍",
+	"&f相信背後也有一個故事"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cobaltId": "ex_Infuse_1",
+  "type": "BRICK",
+  "displayName": "&2【素材】貝爾之玉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f稀有的貝爾之玉",
+	"&f據說是人類古代遺跡中發現的奇異寶物",
+	"&f目前研究發現貝爾之玉用在注魔上是最佳良品"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

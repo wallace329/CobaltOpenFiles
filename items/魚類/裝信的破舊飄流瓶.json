@@ -1,0 +1,25 @@
+{
+  "cobaltId": "letter_bottle",
+  "type": "POTION",
+  "displayName": "&f【素材】裝信的破舊飄流瓶",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f瓶子的一角已經崩了",
+	"&f信紙已經快要爛到連上面的字都看不清"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

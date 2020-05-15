@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Rice",
+  "type": "MILK_BUCKET",
+  "displayName": "&f【食物】仿製白飯",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f採用新大陸的馬鈴薯壓製而成",
+	"&f可以增加飽和感",
+	"&f其中的卡路里十分少",
+	"&f十分適合減肥人士"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

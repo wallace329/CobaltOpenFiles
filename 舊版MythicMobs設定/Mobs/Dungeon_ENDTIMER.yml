@@ -1,0 +1,414 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DUNGEONTIME_M1:
+  Type: ZOMBIE
+  Display: '古寺守護者&8[&6LV 15&8]'
+  Health: 300
+  Damage: 12
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_M2:
+  Type: ZOMBIE
+  Display: '廢墟劍魂&8[&6LV 25&8]'
+  Health: 400
+  Damage: 25
+  Faction: Monster  
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_M3:
+  Type: SKELETON    
+  Display: '廢墟弓兵&8[&6LV 24&8]'
+  Health: 280
+  Damage: 20
+  Faction: Monster
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.34
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_M6:
+  Type: ZOMBIE
+  Display: '叢林破壞者&8[&6LV 41&8]'
+  Health: 3500
+  Damage: 60
+  Faction: Monster
+  Equipment:
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Drops:
+  - exp 2
+DUNGEONTIME_M7:
+  Type: ZOMBIE_VILLAGER
+  Display: '叢林獵手&8[&6LV 40&8]'
+  Health: 1480
+  Damage: 28
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.35
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Drops:
+  - exp 2
+DUNGEONTIME_M4:
+  Type: STRAY
+  Display: '沙漠之影&8[&6LV 33&8]'
+  Health: 600
+  Damage: 24
+  Faction: Monster
+  Equipment:
+  - DUNGEON1_SWORD:0 
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: true
+DUNGEONTIME_M5:
+  Type: HUSK
+  Display: '沙漠捕食者&8[&6LV 32&8]'
+  Health: 1050
+  Damage: 28
+  Faction: Monster
+  Equipment:
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_EX1:
+  Type: ZOMBIE
+  Display: '&6❈ &7古寺守護者&8[&6LV 15&8]'
+  Health: 275
+  Damage: 13
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.34
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_EX2:
+  Type: ZOMBIE_VILLAGER
+  Display: '&6❈ &7廢墟史萊姆&8[&6LV 20&8]'
+  Health: 550
+  Damage: 16
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Disguise:
+    Type: SLIME:3
+  Options:
+    PreventSlimeSplit: true
+    MovementSpeed: 0.4
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_EX3:
+  Type: ZOMBIE
+  Display: '&6❈ &7凡人法師&8[&6LV 30&8]'
+  Health: 725
+  Damage: 10
+  Faction: Monster
+  Disguise:
+    Type: player
+    Skin: jasonho007
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_EX4:
+  Type: HUSK
+  Display: '&6❈ &7沙漠獵食者&8[&6LV 35&8]'
+  Health: 750
+  Damage: 25
+  Faction: Monster
+  Equipment:
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_EX5:
+  Type: ZOMBIE
+  Display: '&6❈ &7叢林精靈&8[&6LV 45&8]'
+  Health: 2650
+  Damage: 40
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.34
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_EX6:
+  Type: ZOMBIE
+  Display: '&6❈ &7魔焰狂戰士&8[&6LV 45&8]'
+  Health: 3750
+  Damage: 40
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.34
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTHEFT_M1:
+  Type: ZOMBIE
+  Display: '持有鑰匙的守門盜賊&8[&6LV 33&8]'
+  Health: 700
+  Damage: 51
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTHEFT_M2:
+  Type: ZOMBIE
+  Display: '盜賊團戰士&8[&6LV 33&8]'
+  Health: 500
+  Damage: 29
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.345
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTHEFT_M3:
+  Type: ZOMBIE
+  Display: '盜賊團援軍戰士&8[&6LV 35&8]'
+  Health: 1000
+  Damage: 40
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Disguise:
+    Type: player
+    Skin: 'DragonearussCube'
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTHEFT_B1:
+  Type: ZOMBIE
+  Display: '盜賊團法師.尼科爾斯&8[&6LV 36&8]'
+  Health: 2590
+  Damage: 10
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn  
+  Disguise:
+    Type: player
+    Skin: 'BlameTC'
+  Options:
+    MovementSpeed: 0.345
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTHEFT_B2:
+  Type: ZOMBIE
+  Display: '盜賊團戰士長.扎赫拉羅茲&8[&6LV 36&8]'
+  Health: 1340
+  Damage: 25
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn  
+  Disguise:
+    Type: player
+    Skin: 'MarsOM'
+  Options:
+    MovementSpeed: 0.4
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTHEFT_B3:
+  Type: ZOMBIE 
+  Display: '盜賊團首領.德克斯特&8[&6LV 40&8]'
+  Health: 3500
+  Damage: 45
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn  
+  Disguise:
+    Type: player
+    Skin: '03z'
+  Options:
+    MovementSpeed: 0.4
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEONTIME_M8:
+  Type: ZOMBIE
+  Display: '野豬鬥士&8[&6LV 56&8]'
+  Health: 5000
+  Damage: 75
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false    
+  Disguise:
+    Type: pig
+DUNGEONTIME_M9:
+  Type: ZOMBIE
+  Display: '瘋羊鬥士&8[&6LV 57&8]'
+  Health: 4370
+  Damage: 83
+  Faction: Monster
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    FollowRange: 
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Disguise:
+    Type: sheep
+DUNGEONTIME_F1:
+  Type: ENDERMITE
+  Display: '異界蟎蟲&8[&6LV 31&8]'
+  Health: 900
+  Damage: 29
+  Faction: Monster
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    FollowRange: 30
+DUNGEONTIME_B1:
+  Type: ZOMBIE
+  Display: '被喚醒的冰霜巨像&8[&6LV 60&8]'
+  Health: 5000
+  Damage: 130
+  Faction: Monster
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    FollowRange: 30
+  Disguise:
+    Type: IRON_GOLEM
+DUNGEONTIME_B2:
+  Type: ZOMBIE
+  Display: '&7時空亂源.多洛斯&8[&6LV 80&8]'
+  Health: 97800
+  Damage: 100
+  Faction: Monster
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Disguise:
+    Type: player
+    Skin: Hangjai
+  Options:
+    MovementSpeed: 0.34
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    FollowRange: 35

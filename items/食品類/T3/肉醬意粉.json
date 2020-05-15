@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Spaghetti_Bolognese",
+  "type": "BEETROOT_SOUP",
+  "displayName": "&4【食物】肉醬意粉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f使用新鮮的車厘茄製成的番茄醬",
+	"&f其酸味刺激人的胃口",
+	"&f而當中的洋蔥和肉粒增加其口感"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

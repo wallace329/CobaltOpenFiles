@@ -1,0 +1,29 @@
+{
+  "cobaltId": "BurntPICKAXE",
+  "type": "GOLDEN_PICKAXE",
+  "displayName": "&4【工具】燖烙鎬",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f凝聚大量火元素的水晶製成",
+	"&f彷如太陽般溫暖",
+	"&f若果誤用能觸發熊熊烈火"
+  ],
+  "enchants": {
+	"Unbreaking": 10,
+	"Efficiency": 6,
+	"fire_aspect": 1,
+	"fire_protection": 10
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

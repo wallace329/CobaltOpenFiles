@@ -1,0 +1,26 @@
+{
+  "cobaltId": "silverNugget",
+  "type": "IRON_NUGGET",
+  "displayName": "&f【素材】碎銀",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f從銀礦挖掘出來的礦物",
+	"&f雖則被挖掘作業中被打碎",
+	"&f但仍不失其銀礦本身的價值"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

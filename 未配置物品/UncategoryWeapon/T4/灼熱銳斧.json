@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Searing_Sharp_Axe",
+  "type": "SHEARS",
+  "displayName": "&4【武器】灼熱銳斧",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f這是在古代遺址中找到的寶物",
+	"&f是一把利用火元素打造的斧",
+	"&f聞說該斧充滿了火焰的力量"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

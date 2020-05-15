@@ -1,0 +1,23 @@
+{
+  "cobaltId": "Strawberry",
+  "type": "SWEET_BERRIES",
+  "displayName": "&4【食物】草莓",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f果實略呈心形，鮮紅多汁",
+	"&f質地柔軟，酸甜適中，氣味芳香。",
+	"&f可在一般菜園找到的食物素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

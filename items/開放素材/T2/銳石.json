@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Sharpstone",
+  "type": "STONE",
+  "displayName": "&8【素材】銳石",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f銳石是由大量碎石集結後打磨",
+	"&f匠師精心制成的堅硬素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

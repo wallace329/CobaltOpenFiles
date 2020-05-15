@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Scale_Dancer_SHIELD",
+  "type": "SHIELD",
+  "displayName": "&9【武器】鱗舞盾",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f利用鱗片所打造成的武器",
+	"&f這些武器在鱗片的加持下",
+	"&f除了能發揮出武器本身的特性外",
+	"&f也能使武器的耐久程度加以提升"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

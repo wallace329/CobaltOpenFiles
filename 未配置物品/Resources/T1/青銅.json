@@ -1,0 +1,25 @@
+{
+  "cobaltId": "GreenCopper",
+  "type": "IRON_INGOT",
+  "displayName": "&6【素材】青銅",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f城鎮最容易入手的礦物，沒有之一",
+	"&f可以打造不同工具"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

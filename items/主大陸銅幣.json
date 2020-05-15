@@ -1,0 +1,25 @@
+{
+  "cobaltId": "CoinBronze",
+  "type": "IRON_NUGGET",
+  "displayName": "&6【錢幣】&8銅幣",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"&8➤ &f等級需求: &f無",
+	"",
+	"&8【&6物品描述&8】",
+	"&f主大陸通用貨幣之一"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

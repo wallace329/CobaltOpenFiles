@@ -1,0 +1,25 @@
+L7B:
+  SpawnerGroup: L7
+  MobName: Z7
+  World: WV
+  X: -259
+  Y: 28
+  Z: -1022
+  Radius: 5
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 0
+  CooldownTimer: 0
+  Warmup: 9
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 40
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

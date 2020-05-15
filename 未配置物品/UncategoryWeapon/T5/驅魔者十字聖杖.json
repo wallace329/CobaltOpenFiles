@@ -1,0 +1,28 @@
+{
+  "cobaltId": "Exorcist's_Cross_Staff",
+  "type": "GOLDEN_PICKAXE",
+  "displayName": "&e【武器】驅魔者十字聖杖",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f神付予祂的神力至此神器上",
+	"&f期望合乎世界所認定之人",
+	"&f能夠使用此神器",
+	"&f驅逐世間所有黑暗",
+	"&f算是神為這混沌的世界所做的最後一點救贖"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

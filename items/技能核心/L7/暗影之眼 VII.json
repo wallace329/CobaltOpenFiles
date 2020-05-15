@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCShadowEye7",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8暗影之眼 VII",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"&8➤ &f等級需求: &f35",
+	"&8➤ &f魔力需求: &f每次消耗5點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f無",
+	"",
+	"&8【&6能力描述&8】",
+	"&f給予持有者&c夜視&f效果並維持&c70秒",
+	"&f給予持有者&c挖礦加速II&f效果並維持&c45秒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "ShadowEye7"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

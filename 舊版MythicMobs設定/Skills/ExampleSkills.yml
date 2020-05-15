@@ -1,0 +1,89 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+SmashAttack:
+  Cooldown: 8
+  Conditions:
+  - targetwithin 25
+  Skills:
+  - message{cooldown=30;m="<mob.name><&co> Hahahah! I will crush you, fool!"} @PlayersInRadius{r=40}
+  - teleport @target
+  - effect:sound{s=mob.endermen.portal;volume=1.0;pitch=0.5}
+  - delay 10
+  - damage{amount=5;ignorearmor=true} @PlayersInRadius{r=5}
+  - throw{velocity=10;velocityY=5} @PlayersInRadius{r=5}
+  - effect:explosion @Self
+SummonSkeletons:
+  Cooldown: 15
+  Skills:
+  - message{m="<mob.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+  - delay 20
+  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+AngrySludgePoison:
+  Cooldown: 10
+  Skills:
+  - potion{type=POISON;lvl=2;duration=100} @PlayersInRadius{r=15}
+  - effect:particles{p=happyVillager;amount=1000;hSpread=15;ySpread=1;speed=0;yOFfset=0.5} @Self
+TOWERBOSSSKILL:
+  Cooldown: 30
+  Skills:
+  - explosion{blockdamage=false;fire=false;yield=0.1} @target
+  - effect:particles{p=witchMagic;amount=35;speed=1.2;hR=0.8;vR=0.8;hfs=0.8} @origin
+TOWERBOSSSTEL:
+  Cooldown: 10
+  Skills:
+  - teleport{spreadH=3} @target 0.2
+  - effect:particles{p=witchMagic;amount=20;speed=1.8;hR=0.8;vR=0.8;hfs=0.8} @origin
+IceBolt:
+  Skills:
+  - projectile{onTick=IceBolt-Tick;onHit=IceBolt-Hit;v=35;i=1;hR=1;vR=1;mr=10;hfs=8.0}
+IceBolt-Tick:
+  Skills:
+  - effect:particles{p=blockcrack_1;amount=1;speed=0;hR=0.8;vR=0.8;hfs=0.8} @origin
+IceBolt-Hit:
+  Skills:
+  - damage{a=2}
+ELFBolt:
+  Skills:
+  - projectile{onTick=ELFBolt-Tick;onHit=ELFBolt-Hit;v=35;i=1;hR=1;vR=1;mr=10;hfs=8.0}
+ELFBolt-Tick:
+  Skills:
+  - effect:particles{p=blockcrack_18;amount=4;speed=0.4;hR=0.8;vR=0.8;hfs=0.8} @origin
+ELFBolt-Hit:
+  Skills:
+  - damage{a=20}
+CrushingLeap:
+  Cooldown: 10
+  Skills:
+  - leap{velocity=200} @target
+  - delay 20
+  - jump{velocity=-130}
+  - effect:explosion @self
+  - damage{amount=5} @EntitiesInRadius{r=5}
+FireballBarrage:
+  Skills:
+  - shootfireball{y=1;v=1;sml=true} @target
+EFFECTWOLF: 
+  Cooldown: 5
+  Skills: 
+  - effect:flames @self
+Homer:
+  Skills:
+  - missile{ot=Homer_TICK;oh=Homer_HIT;v=4;i=1;hR=1;vR=1;in=0.75}
+Homer_TICK:
+  Skills:
+  - effect:particles{p=flame;a=1} @origin
+Homer_HIT:
+  Skills:
+  - effect:particles{p=lava;a=50;hS=1;vS=1}
+  - effect:sound{s=random.explode;v=1;p=0}
+  - damage{a=1;i=false}
+DUNGEON1_NEVERDEAD:
+  Skills:
+  - effect:particles{p=flame;a=15;vs=0.5;hs=0.2;s=0;y=1} @Origin
+  - effect:sound{s=entity.endermen.ambient;v=1;p=0.5} @Self 1
+  - summon{type=DUNGEON_M1S;a=1;yradius=0;radius=5} 

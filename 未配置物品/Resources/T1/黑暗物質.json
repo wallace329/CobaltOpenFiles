@@ -1,0 +1,26 @@
+{
+  "cobaltId": "DARKBLOCK_1",
+  "type": "OBSIDIAN",
+  "displayName": "&8【素材】黑暗物質",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f於魔狼侍者身上掉落的物質",
+	"&f看似是屬於暗黑大陸那邊的東西",
+	"&f經過淨化後應該能夠了解其中的隱秘"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

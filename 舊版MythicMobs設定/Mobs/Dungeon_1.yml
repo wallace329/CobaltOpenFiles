@@ -1,0 +1,149 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DUNGEON_M1:
+  Type: ZOMBIE
+  Display: '庫纳士兵&8[&6LV 2&8]'
+  Health: 15
+  Damage: 1
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEON_M2:
+  Type: ZOMBIE
+  Display: '庫纳劍士&8[&6LV 4&8]'
+  Health: 21
+  Damage: 2
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEON_M3:
+  Type: GHAST
+  Display: '魔物攻城幽靈&8[&6LV 50&8]'
+  Health: 150
+  Damage: 0
+  Faction: Monster
+  Options:
+    MovementSpeed: 0
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEON_M4:
+  Type: HUSK
+  Display: '半魔獵者&8[&6LV 10&8]'
+  Health: 180
+  Damage: 3
+  Faction: Monster
+  Equipment:
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEON_M5:
+  Type: ZOMBIE_VILLAGER
+  Display: '庫纳戰士&8[&6LV 4&8]'
+  Health: 105
+  Damage: 3
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  Options:
+    MovementSpeed: 0.18
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEON_M1S:
+  Type: ZOMBIE
+  Display: '庫纳士兵&8[&6LV 2&8]'
+  Health: 100
+  Damage: 1
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: true
+DUNGEON_M2S:
+  Type: ZOMBIE
+  Display: '庫纳劍士&8[&6不死&8]'
+  Health: 1000
+  Damage: 1
+  Faction: Monster
+  Equipment:
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON1_SWORD:0
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+DUNGEON1_BOSS:
+  Mobtype: witherskeleton
+  Display: '負傷的庫纳隊長&8[&6LV 8&8]'
+  Health: 100
+  Damage: 2
+  Faction: Monster
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  - 2 RandomLookAround
+  - 3 LookAtPlayers
+  - 4 RandomStroll
+  - 5 Float
+  - 6 opendoors
+  - 7 fleesun
+  AITargetSelectors:
+  - 0 clear
+  - 1 hurtbytarget
+  - 2 players
+  Skills: 
+  - skill{s=RenegadeDarkBeam} @Target ~onTimer:300 1
+  Equipment:
+  - DiamondHoe:0
+  - DUNGEON_UNQ1:4
+  - DUNGEON_BODYARMOR:3
+  - DUNGEON_ARMOR1:2
+  - DUNGEON_FEET1:1
+  Options:
+    Despawn: true
+    FollowRange: 40
+    PreventMobKillDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.1
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+SuperMob:
+  Type: zombie
+  Health: 20
+  Display: 'Superb Zombie'
+  Skills:
+  - skill{s=laser-one} @EntitiesInRadius{r=1;target=players} ~onTimer:10
+  AIGoalSelectors:
+  - 0 clear
+  - 1 patrol 86,23,85;92,23,85;
+  Disguise:
+    Invisible: true

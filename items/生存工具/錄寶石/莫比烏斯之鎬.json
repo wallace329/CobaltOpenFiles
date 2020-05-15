@@ -1,0 +1,30 @@
+{
+  "cobaltId": "MobiusPICKAXE",
+  "type": "DIAMOND_PICKAXE",
+  "displayName": "&b【工具】莫比烏斯之鎬",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f曾經一位瘋狂的科學家獲得一部分的「天空」和「虛空」",
+	"&f兩者碰撞時產生了一種神奇物質",
+	"&f其物質彷如黑洞般",
+	"&f因此將其中一部分製成此镐"
+  ],
+  "enchants": {
+	"Unbreaking": 10,
+	"Efficiency": 8,
+	"Infinity": 10,
+	"Mending": 10
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

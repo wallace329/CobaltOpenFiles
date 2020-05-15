@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Hawaiian_pizza",
+  "type": "HONEYCOMB",
+  "displayName": "&e【食物】&c夏&a威&e夷&b風水果披薩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以菠蘿、芝士、番茄醬",
+	"&f以及煙肉或火腿為配料",
+	"&f有別有一番風味"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

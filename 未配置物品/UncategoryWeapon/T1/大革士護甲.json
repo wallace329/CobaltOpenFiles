@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Great_Leather_CHESTPLATE",
+  "type": "GOLDEN_CHESTPLATE",
+  "displayName": "&3【裝備】大革士護甲",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f由人族最強的鬥士",
+	"&f號稱大革士的猛者所使用的裝備",
+	"&f記憶着前人的意志",
+	"&f相信有着前人的加護"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

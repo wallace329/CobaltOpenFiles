@@ -1,0 +1,34 @@
+{
+  "cobaltId": "SCDecompose1",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8屬性分解 I",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f渡劫稀有度: &6✰",
+	"&8➤ &f等級需求: &f無",
+	"&8➤ &f魔力需求: &f每次消耗1點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有3秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f近戰攻擊命中時有&c100%&f機率觸發以下效果:",
+	"&5| &f對命中生物造成&c5點額外傷害",
+	"&5| &f施加及得到&c虛弱 1&f效果並持續20秒",
+	"&5| &f施加永久&c凋零 1&f效果"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "Decompose1"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Malignant_Armor",
+  "type": "LEATHER_LEGGINGS",
+  "displayName": "&2【裝備】瘴氣護甲",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f這件布甲本來是一件優秀的盔甲",
+	"&f但經過魔物的瘴氣污染後",
+	"&f不但本來的性能大大下降",
+	"&f而且還變成了一件穿戴時會有惡臭的下品"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

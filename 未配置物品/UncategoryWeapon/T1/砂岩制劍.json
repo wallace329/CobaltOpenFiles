@@ -1,0 +1,28 @@
+{
+  "cobaltId": "Sandstone_SWORD",
+  "type": "GOLDEN_SWORD",
+  "displayName": "&e【武器】砂岩制劍",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f砂岩是利用了聚沙的技術",
+	"&f使砂子變成十分堅硬的硬塊",
+	"&f而由砂岩所製成的武器",
+	"&f更能增加使用者的攻擊力",
+	"&f是西方都市熱賣的商品之一"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

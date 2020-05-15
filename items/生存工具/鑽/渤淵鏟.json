@@ -1,0 +1,29 @@
+{
+  "cobaltId": "WATERSHOVEL",
+  "type": "DIAMOND_SHOVEL",
+  "displayName": "&1【工具】渤淵鏟",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f凝聚水元素的水晶製成",
+	"&f彷如鑽石般閃爍",
+	"&f能潔淨,洗滌萬物"
+  ],
+  "enchants": {
+	"Unbreaking": 10,
+	"Efficiency": 6,
+	"luck_of_the_sea": 10,
+	"riptide": 10
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

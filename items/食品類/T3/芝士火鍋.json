@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Cheese_Fondue",
+  "type": "PUFFERFISH_BUCKET",
+  "displayName": "&e【食物】芝士火鍋",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f,使用多種芝士",
+	"&f令火鍋芝味香濃",
+	"&f配搭麵包使口感提升"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

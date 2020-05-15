@@ -1,0 +1,26 @@
+{
+  "cobaltId": "CORE_1",
+  "type": "MAGMA_CREAM",
+  "displayName": "&4【素材】真紅核心",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f結集大量火元素的聚集物",
+	"&f真紅的核心與透明的外層",
+	"&f令人不禁暇想其中的強大力量"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

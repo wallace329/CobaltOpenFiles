@@ -1,0 +1,27 @@
+{
+  "cobaltId": "SSIRON_1",
+  "type": "IRON_ORE",
+  "displayName": "&f【素材】秘銀原礦",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f相傳秘銀是一種奇蹟的礦物",
+	"&f在鐵匠界無人不知的武器材料",
+	"&f據說秘銀能夠大幅提升武器的魔力傳遞",
+	"&f使武器獲得無人能名及的力量"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cobaltId": "MercurySHOVEL",
+  "type": "STONE_SHOVEL",
+  "displayName": "&7【工具】汞黝鏟",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f將其礦製成大馬士革鋼",
+	"&f製成後堅固無比",
+	"&f來源簡單是玩家們最愛的工具"
+  ],
+  "enchants": {
+	"Unbreaking": 5,
+	"Efficiency": 2
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

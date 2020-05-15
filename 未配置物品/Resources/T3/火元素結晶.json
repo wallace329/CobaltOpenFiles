@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Fire_Crystal",
+  "type": "RED_STAINED_GLASS",
+  "displayName": "&4【素材】火元素結晶",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f如同熊熊烈火般的熾熱",
+	"&f若無適合的裝備凡身肉體恐怕不能承受"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

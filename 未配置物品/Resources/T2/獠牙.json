@@ -1,0 +1,26 @@
+{
+  "cobaltId": "TOOTH_1",
+  "type": "IRON_NUGGET",
+  "displayName": "&f【素材】獠牙",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f小部份魔物身上的尖銳獠牙",
+	"&f有媲美劍鋒的鋒利程度",
+	"&f是作為武器鍛造的優秀素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

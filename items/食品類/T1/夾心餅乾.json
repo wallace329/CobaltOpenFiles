@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Sandwich_biscuits",
+  "type": "COOKIE",
+  "displayName": "&6【食物】夾心餅乾",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f兩片餅乾包著甜食在中間",
+	"&f使舌尖更達至衝突又和諧的美妙滋味"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

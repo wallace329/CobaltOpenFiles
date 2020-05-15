@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Sharp_Stone_Axe",
+  "type": "stone_axe",
+  "displayName": "&7【武器】銳石斧",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f已經打磨過的碎石而打造成的斧",
+	"&f性能比起一般的碎石斧還要高",
+	"&f但缺點便是武器的重量太大",
+	"&f令使用者使用起來很不方便"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "cobaltId": "SCInfHunger7",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8無盡飢餓 VII",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f渡劫稀有度: &6✰✰✰✰",
+	"&8➤ &f等級需求: &f60",
+	"&8➤ &f魔力需求: &f無",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有3秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f近戰攻擊命中時有&c100%&f機率觸發以下效果:",
+	"&5| &f獲得&c飢餓X&f效果並維持&c75秒",
+	"&5| &f對命中生物造成&c緩速II&f效果並維持55秒",
+	"&5| &f治愈自己&c8&f點生命值",
+	"&5| &c7.5%&f機率觸發&c啃咬&f: 額外造成25點傷害並恢復7點飽食度"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "InfHunger7"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cobaltId": "French_BREAD",
+  "type": "BREAD",
+  "displayName": "&6【食物】法國麵包",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f脆脆的外皮加上軟酥的餡",
+	"&f香味迷人的法國麵包"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

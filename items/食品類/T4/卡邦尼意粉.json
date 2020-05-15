@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Kaboni_Spaghetti",
+  "type": "MUSHROOM_STEW",
+  "displayName": "&e【食物】卡邦尼意粉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f每根意大利粉都沾上濃郁的忌廉汁",
+	"&f瀰漫著煙肉的煙燻味",
+	"&f使人欲罷不能"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,77 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DUNGEON_WOOD_1:
+  Type: ZOMBIE_VILLAGER
+  Display: '木斧守衞&8[&6LV 25&8]'
+  Health: 1700
+  Damage: 12
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WOOD1_HEAD:4
+  - DUNGEON_WOOD1_WEAPON:0
+  - DUNGEON_WOOD1_BODYARMOR:3
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEON_WOOD_3:
+  Type: BABY_ZOMBIE_VILLAGER
+  Display: ' 木鐮守衞統領&8[&6LV 27&8]'
+  Health: 2900
+  Damage: 30
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WOOD1_HEAD:4
+  - DUNGEON_WOOD1_BODYARMOR:3
+  - DUNGEON_WOOD1_ARMOR:2
+  - DUNGEON_WOOD1_FEET:1
+  - DUNGEON_WOOD1_WEAPON_BIGSWORD:0
+  Options:
+    MovementSpeed: 0.21
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=1.77;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEON_WOOD_2:
+  Type: ZOMBIE_VILLAGER
+  Display: '木鐮守衞&8[&6LV 28&8]'
+  Health: 1550
+  Damage: 10
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WOOD1_HEAD:4
+  - DUNGEON_WOOD1_WEAPON_MAGIC:0
+  - DUNGEON_WOOD1_BODYARMOR:3
+  - DUNGEON_WOOD1_ARMOR:2
+  Disguise:
+    Type: ZOMBIE_VILLAGER
+  Options:
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;so=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEON_WOOD_BOSS:
+  Type: ZOMBIE_VILLAGER
+  Display: '§c木鐮守護者◎§6§lBOSS'
+  Health: 6500
+  Damage: 15
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WOOD1_HEAD_BOSS:4
+  - DUNGEON_WOOD1_WEAPON_BIGSWORD:0
+  - DUNGEON_WOOD1_BODYARMOR:3
+  - DUNGEON_WOOD1_ARMOR:2
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn

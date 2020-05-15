@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Imprint_1",
+  "type": "LIGHT_BLUE_STAINED_GLASS_PANE",
+  "displayName": "&b【素材】滄海印記",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f擊殺滄海附近的怪物便能獲得",
+	"&f沒有人知道這是什麼原理才產生",
+	"&f據說是他們身為滄海一份子的憑證"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

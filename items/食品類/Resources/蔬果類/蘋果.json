@@ -1,0 +1,24 @@
+{
+  "cobaltId": "APPLE",
+  "type": "APPLE",
+  "displayName": "&c【食材】蘋果",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f果如梨而圓滑",
+	"&f半紅半白,光潔可愛",
+	"&f香聞數步,味甘松",
+	"&f可在一般菜園找到的食物素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

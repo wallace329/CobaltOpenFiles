@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCSteelHeart10",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8鋼鐵之心 X",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"&8➤ &f等級需求: &f90",
+	"&8➤ &f魔力需求: &f無",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有11秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f受到傷害時有&c12%&f機率觸發以下效果:",
+	"&5| &f恢復&c18點&f生命值"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore":"steelheart10"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

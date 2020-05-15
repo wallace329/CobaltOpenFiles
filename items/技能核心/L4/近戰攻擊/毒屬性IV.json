@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCToxic4",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8毒屬性 IV",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"&8➤ &f等級需求: &f30",
+	"&8➤ &f魔力需求: &f每次消耗4點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有5秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f近戰攻擊命中時有&c100%&f機率觸發以下效果:",
+	"&5| &f對命中生物造成&c15點額外傷害並施加中毒效果&c(弱毒)&f並維持&c20秒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "Toxic4"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

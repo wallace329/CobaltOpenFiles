@@ -1,0 +1,31 @@
+{
+  "cobaltId": "Kamikaze_blessing-Ten_holding_swords",
+  "type": "GOLD_SWORD",
+  "displayName": "&a【武器】神風庇佑-十握劍",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f這把太刀相傳在上古文明的時代中",
+	"&f能把任何物件都能輕易切斷的神刀",
+	"&f太刀是有生命的",
+	"&f十握劍劍速就如風一樣快",
+	"&f他只會為自己所認定的主人效勞",
+	"&f他對於硬是使用他的使用者",
+	"&f將會剝奪使用者的生命及防禦"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}
+

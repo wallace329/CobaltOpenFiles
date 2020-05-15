@@ -1,0 +1,25 @@
+{
+  "cobaltId": "carp",
+  "type": "SALMON",
+  "displayName": "&c【素材】新鮮鯉魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f隨處可見的鯉魚",
+	"&f味道一般"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

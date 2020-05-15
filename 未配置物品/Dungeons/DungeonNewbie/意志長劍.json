@@ -1,0 +1,41 @@
+{
+  "cobaltId": "DungeonNewbieSword",
+  "type": "IRON_SWORD",
+  "displayName": "&2【故事武器】&f意志長劍",
+  "lore": [
+	"",
+	"&8【&6武器資訊&8】",
+	"&8➤ &f稀有度: &6無法評鑑",
+	"&8➤ &f等級需求: &f突破限制",
+	"&8➤ &f武器傷害: &6無法評鑑",
+	"",
+	"&8【&6武器傳說&8】",
+	"&f意志堅定者所擁有的一把長劍",
+	"&c來歷不明",
+	"",
+	"&8【&6武器已裝備技能&8】",
+	"!skills",
+	"",
+	"&8【&6武器能力加成&8】",
+	"!skillModifiers"
+  ],
+  "enchants": {
+    "sharpness": 10
+  },
+  "tags": [],
+  "unbreakable": true,
+  "specialModifier": {
+    "requireUpdateLores": true,
+	"levelRequired": 1,
+	"boundSkills": [
+		"conqueror",
+		"triplehit"
+	],
+	"boundSkillModifiers": [
+		{
+			"key": "SkillDamage",
+			"value": "10"
+		}
+	]
+  }
+}

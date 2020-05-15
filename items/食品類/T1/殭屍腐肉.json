@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Zombie_Carrion",
+  "type": "ROTTEN_FLESH",
+  "displayName": "&4【食物】殭屍腐肉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f殭屍被殺死時掉落的食物物品",
+	"&f腐肉可以恢復4格飢餓值",
+	"&f但是可能造成自己食物中毒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "cobaltId": "ghost_fish",
+  "type": "COD",
+  "displayName": "&d【素材】鬼魅恆秋魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f如影般若隱若現的魚",
+	"&f其存在只在人們口耳之間相傳下去"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

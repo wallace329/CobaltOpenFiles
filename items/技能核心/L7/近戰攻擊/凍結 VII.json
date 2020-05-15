@@ -1,0 +1,33 @@
+{
+  "cobaltId": "SCFreeze7",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8凍結 VII",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"&8➤ &f等級需求: &f60",
+	"&8➤ &f魔力需求: &f每次消耗13點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有20秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f進行近戰攻擊時有&c40%&f機率觸發以下效果:",
+	"&5| &f將半徑&c7格&f內的生物禁足&c20秒",
+	"&5| &f將半徑&c5格&f內的生物虛弱I&c40秒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "freeze7"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

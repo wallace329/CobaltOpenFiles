@@ -1,0 +1,26 @@
+{
+  "cobaltId": "salmon",
+  "type": "COOKED_SALMON",
+  "displayName": "&d【素材】新鮮鮭魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f大海豐盛的產物",
+	"&f因價錢便宜味道可口",
+	"&f是每個家的常菜"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

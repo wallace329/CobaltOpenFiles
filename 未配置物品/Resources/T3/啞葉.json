@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Leaves_1",
+  "type": "WHITE_STAINED_GLASS_PANE",
+  "displayName": "&7【素材】啞葉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f就算什麼擺動也不會產生聲音的葉子",
+	"&f據說這是暗殺組織製服的原材料"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

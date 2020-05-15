@@ -1,0 +1,23 @@
+{
+  "cobaltId": "potato",
+  "type": "POTATO",
+  "displayName": "&6【食材】馬鈴薯",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f增加飽腹感",
+	"&f能適用於多個食譜",
+	"&f可在一般菜園找到的食物素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

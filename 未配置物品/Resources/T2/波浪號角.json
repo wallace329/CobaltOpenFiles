@@ -1,0 +1,25 @@
+{
+  "cobaltId": "HORN_1",
+  "type": "BLAZE_ROD",
+  "displayName": "&b【素材】波浪號角",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在海岸裡吸收大地魔力而變成的號角",
+	"&f據說能夠聽到海底亡魂的聲音"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cobaltId": "GLASS_1",
+  "type": "GLASS_PANE",
+  "displayName": "&f【素材】玻璃碎片",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f是這個世界少見的玻璃的碎片",
+	"&f即使是碎片",
+	"&f但它也價值不菲",
+	"&f是王國內貴族中的搶手貨"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

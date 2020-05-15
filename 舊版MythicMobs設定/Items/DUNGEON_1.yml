@@ -1,0 +1,41 @@
+# 
+# This example file shows you how to set up special items
+# for your mobs to equip or drop.
+DUNGEON_UNQ1:
+  Id: 198
+  Display: '&a庫纳的角'
+  Lore:
+  - '&6A leather tunic taken from'
+  - '&6the corpse of a bandit.'
+  Options:
+    Color: 255,40,40
+MAGICTOWERSTICK:
+  Id: 280
+  Data: 0
+DUNGEON1_SWORD:
+  Id: 272
+  Data: 0
+DUNGEON_BODYARMOR:
+  Display: '&f庫纳訓練用護甲'
+  Id: 299
+  Options:
+    Color: 255,245,238
+  Lore:
+  - "&f[&5裝甲&f]"
+  - "&9魔物軍隊統一派發的盔甲"
+DUNGEON_ARMOR1:
+  Id: 300
+  Display: '&f庫纳訓練用護腿'
+  Lore:
+  - "&f[&5裝甲&f]"
+  - "&9魔物軍隊統一派發的盔甲"
+  Options:
+    Color: 255,245,238
+DUNGEON_FEET1:
+  Id: 301
+  Display: '&f庫纳訓練用鞋'
+  Lore:
+  - "&f[&5裝甲&f]"
+  - "&9魔物軍隊統一派發的盔甲"
+  Options:
+    Color: 255,245,238

@@ -1,0 +1,26 @@
+{
+  "cobaltId": "French_fries",
+  "type": "BLAZE_ROD",
+  "displayName": "&e【食物】薯條",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f將馬鈴薯切割成條狀",
+	"&f並高溫油炸",
+	"&f炸成外脆內軟"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

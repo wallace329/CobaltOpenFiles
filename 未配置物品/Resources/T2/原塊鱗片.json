@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Scale_2",
+  "type": "PRISMARINE_SHARD",
+  "displayName": "&1【素材】原塊鱗片",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在城市中難得一見的全塊鱗片",
+	"&f就算不經過打磨也能成為不錯的素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Water_Fragment_1",
+  "type": "BLUE_STAINED_GLASS_PANE",
+  "displayName": "&b【素材】水元素碎片",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f恍如寶石的閃爍",
+	"&f它的來源卻無人知曉",
+	"&f如同海洋般的神秘"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

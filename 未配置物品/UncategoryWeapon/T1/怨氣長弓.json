@@ -1,0 +1,27 @@
+{
+  "cobaltId": "BOW_of_Resentment",
+  "type": "BOW",
+  "displayName": "&7【武器】怨氣盾",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f怨氣盾的製成原理主要在於怨氣密度",
+	"&f如果某一處的怨氣密度十分高",
+	"&f那怨氣護腿就會被製成出來",
+	"&f這可以說是世界的不合理處之一"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

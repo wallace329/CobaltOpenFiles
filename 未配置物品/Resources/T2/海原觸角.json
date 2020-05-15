@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Imprint_2",
+  "type": "STICK",
+  "displayName": "&b【素材】海原觸角",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f擊殺海岸附近的怪物獲得",
+	"&f據說海原觸角有着匪夷所思的價值"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

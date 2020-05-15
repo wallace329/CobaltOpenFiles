@@ -1,0 +1,23 @@
+{
+  "cobaltId": "WATERMELON",
+  "type": "MELON",
+  "displayName": "&a【食材】西瓜",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f果面光滑，底色鮮綠，上覆深綠色中細齒條",
+	"&f瓜瓤紅色，瓤質脆嫩，汁多爽口",
+	"&f可在一般菜園找到的食物素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

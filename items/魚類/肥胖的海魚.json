@@ -1,0 +1,26 @@
+{
+  "cobaltId": "fat_fish",
+  "type": "PUFFERFISH",
+  "displayName": "&b【素材】肥胖的海魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f魚肉充滿著一層層令人欲罷不能的厚厚脂肪",
+	"&f比較少見",
+	"&f故為上等人家的佳餚"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

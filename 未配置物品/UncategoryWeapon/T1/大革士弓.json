@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Great_Leather_BOQW",
+  "type": "BOW",
+  "displayName": "&3【武器】大革士弓",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f由人族最強的鬥士",
+	"&f號稱大革士的猛者所使用的武器",
+	"&f記憶着前人的意志",
+	"&f相信有着前人的加護"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

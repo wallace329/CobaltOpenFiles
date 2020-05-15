@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Bone_sword",
+  "type": "STONE_SWORD",
+  "displayName": "&f【武器】骨劍",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f由不死族-骷髏骨頭使用的武器",
+	"&f劍的材料是以他們自身的骨頭所製成",
+	"&f所以可以不用顧慮地生產及使用"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

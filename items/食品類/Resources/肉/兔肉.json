@@ -1,0 +1,22 @@
+{
+  "cobaltId": "RABBIT",
+  "type": "RABBIT",
+  "displayName": "&4【食物】兔肉",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f肌肉纖維細嫩",
+	"&f適合多種烹調方法"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

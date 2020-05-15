@@ -1,0 +1,29 @@
+{
+  "cobaltId": "Elf_Blessing-Night_God_Heavy_CROSSBOW",
+  "type": "CROSSBOW",
+  "displayName": "&9【武器】精靈祝福-夜神重弩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f巴斯卡爾原為夜精靈族的首領",
+	"&f但不幸受到邪惡力量入侵",
+	"&f成為了邪惡的象徵「吉里巴特突入」",
+	"&f隨後經勇者們解救夜精靈樹後",
+	"&f吉里巴特突入得到了解放",
+	"&f與解放後的精靈之力融合轉化為這武器"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

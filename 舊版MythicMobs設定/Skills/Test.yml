@@ -1,0 +1,48 @@
+# 
+# These example files show you some VERY basic meta skills.
+# You can copy and expand them however you'd like.
+laser-one:
+  Skills:
+  - damage{a=2}
+##衝撞的技能##
+Code_Ice_M2Sk1:
+  Cooldown: 0
+  Conditions:
+  - incombat
+  Skills:
+  - delay 3
+  - jump{velocity=0.5} @Self
+  - delay 5
+  - potion{type=SPEED;duration=60;level=1} @Self
+  - leap{velocity=300} @target
+  - skill{s=Code_Ice_M2Sk2}
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - skill{s=Code_Ice_M2Sk2}
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - skill{s=Code_Ice_M2Sk2}
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+  - delay 1
+  - skill{s=Code_Ice_M2Sk2}
+  - effect:particles{p=cloud;a=1;hs=0.3;vs=0.3} @Self
+
+##攻擊力 damage{a=5}##
+Code_Ice_M2Sk2:
+  Conditions:
+  - targetwithin 2
+  Skills:
+  - damage{a=5} @target
+  - throw{velocity=3;velocityY=1} @target

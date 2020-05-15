@@ -1,0 +1,29 @@
+{
+  "cobaltId": "Tassanum_Fusion_Power",
+  "type": "STONE_SWORD",
+  "displayName": "&e【武器】塔薩納姆融合之力",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f這是一把由高級鐵匠所打造的劍刃",
+	"&f劍刃持有長劍的攻擊範圍及刃的鋒利度",
+	"&f其特色在於能夠吸取其他物品",
+	"&f利用注魔來增加武器自身的能力",
+	"&f所以這武器也有「塔薩納姆融合之力」之稱"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}
+

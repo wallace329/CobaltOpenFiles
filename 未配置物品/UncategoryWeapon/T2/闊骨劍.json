@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Broad_Bone_Sword",
+  "type": "STONE_SWORD",
+  "displayName": "&f【武器】闊骨劍",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以多個上位不死族的骨頭所製造的武器",
+	"&f劍內有著支配不死族的威力",
+	"&f闊骨劍的劍身不但闊而且還十分厚",
+	"&f即使是很堅硬物件也能輕易斬斷"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

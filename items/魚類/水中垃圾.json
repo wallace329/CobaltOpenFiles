@@ -1,0 +1,25 @@
+{
+  "cobaltId": "water_trash",
+  "type": "FIREWORK_STAR",
+  "displayName": "&7【素材】水中垃圾",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f從海中打撈的垃圾",
+	"&f用途不大"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

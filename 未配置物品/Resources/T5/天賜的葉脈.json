@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Leaves_2",
+  "type": "BIRCH_SAPLING",
+  "displayName": "&a【素材】天賜的葉脈",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在無數塊葉子中才會出現一塊的奇蹟葉子",
+	"&f據說其中隱藏着能夠治療萬物的力量"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

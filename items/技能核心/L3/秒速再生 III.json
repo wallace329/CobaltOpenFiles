@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCFastHeal3",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8秒速再生 III",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f渡劫稀有度: &6✰✰",
+	"&8➤ &f等級需求: &f20",
+	"&8➤ &f魔力需求: &f每次消耗25點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f無",
+	"",
+	"&8【&6能力描述&8】",
+	"&f受到傷害時有&c100%&f機率觸發以下效果:",
+	"&5| &f治愈自己&c40點&f生命值",
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "FastHeal3"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

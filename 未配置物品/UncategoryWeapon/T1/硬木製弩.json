@@ -1,0 +1,29 @@
+{
+  "cobaltId": "Hardwood_Crossbow",
+  "type": "BOW",
+  "displayName": "&2【武器】硬木製弩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f製木廠以硬木碎塊製成的弩",
+	"&f利用硬木所製造的弓身",
+	"&f十分堅固",
+	"&f而且弦線利用雲絲製造",
+	"&f韌性十分高",
+	"&f綜合來說就是一把很耐用的好弓"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

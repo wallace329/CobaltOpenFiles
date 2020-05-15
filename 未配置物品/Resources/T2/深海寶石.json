@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Emr_1",
+  "type": "CYAN_GLAZED_TERRACOTTA",
+  "displayName": "&1【素材】深海寶石",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f據說於深海沉船所發現的寶石",
+	"&f是前海盜所守護的寶物"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

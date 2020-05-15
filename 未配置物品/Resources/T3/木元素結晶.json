@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Wood_crystal",
+  "type": "LIME_STAINED_GLASS",
+  "displayName": "&2【素材】木元素結晶",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f凝聚大量的自然能量",
+	"&f變得能够從肉眼觀看"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

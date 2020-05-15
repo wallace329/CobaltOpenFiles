@@ -1,0 +1,25 @@
+{
+  "cobaltId": "goldgun_king",
+  "type": "PUFFERFISH",
+  "displayName": "&e【素材】金槍魚王",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f獲稱為「海中黃金」",
+	"&f在海中閃閃生輝"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

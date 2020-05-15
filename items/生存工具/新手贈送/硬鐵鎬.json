@@ -1,0 +1,19 @@
+{
+  "cobaltId": "HardIronPickaxe",
+  "type": "IRON_PICKAXE",
+  "displayName": "&2【工具】&f硬鐵鎬",
+  "lore": [
+	"",
+	"&8【&6工具資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"&8➤ &f等級需求: &f無",
+	"",
+	"&8【&6工具傳說&8】",
+	"&f純粹是一把比較硬的鐵鎬"
+  ],
+  "enchants": {
+	"unbreaking": 3
+  },
+  "tags": [],
+  "unbreakable": false
+}

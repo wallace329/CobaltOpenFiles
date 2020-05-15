@@ -1,0 +1,26 @@
+{
+  "cobaltId": "MobCoreT2",
+  "type": "SNOWBALL",
+  "displayName": "&8【素材】昇華的魔物核心",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f魔物內部存在核心作為它們的動能驅動器",
+	"&f越強大的魔物便會存在更強大的核心",
+	"&f核心能夠作為技能的合成材料"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

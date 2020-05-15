@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Wild_DOAR",
+  "type": "PORK",
+  "displayName": "&4【食物】野豬肉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f野豬被殺死時掉落的食物物品",
+	"&f生的野豬肉可以恢復三格飢餓值"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

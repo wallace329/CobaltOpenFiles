@@ -1,0 +1,26 @@
+{
+  "cobaltId": "WOOD_1",
+  "type": "DARK_OAK_PLANKS",
+  "displayName": "&2【素材】硬木",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f所有由硬木所制成的武器",
+	"&f其耐久都比同階的來得更佳",
+	"&f在鎮上非常流行的素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

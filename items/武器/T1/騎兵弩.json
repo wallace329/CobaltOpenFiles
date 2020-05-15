@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Cavalry_CROSSBOW",
+  "type": "CROSSBOW",
+  "displayName": "&f【武器】騎兵弩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以往因方便使用者於騎乘時使用",
+	"&而強烈要求工匠鍛造出來的武器",
+	"&因此這武器在實際使用起上來",
+	"&會比其他類型的武器更得心應手"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

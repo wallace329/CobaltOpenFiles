@@ -1,0 +1,27 @@
+{
+  "cobaltId": "HardgoldPICKAXE",
+  "type": "GOLDEN_PICKAXE",
+  "displayName": "&f【工具】硬金石鎬",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f純度極高的金礦石製成的",
+	"&f既擁有金制工具所擁有的光澤和效率",
+	"&f同時擁有鐵製品的堅固"
+  ],
+  "enchants": {
+	"Unbreaking": 10,
+	"Efficiency": 3
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

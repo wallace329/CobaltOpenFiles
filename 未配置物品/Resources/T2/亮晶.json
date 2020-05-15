@@ -1,0 +1,25 @@
+{
+  "cobaltId": "CRYSTAL_2",
+  "type": "GLOWSTONE",
+  "displayName": "&e【素材】亮晶",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在城市中難得一見的全塊亮晶",
+	"&f就算不經過打磨也能成為不錯的素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

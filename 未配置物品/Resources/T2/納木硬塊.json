@@ -1,0 +1,26 @@
+{
+  "cobaltId": "NWOOD_2",
+  "type": "BEETROOT_SEEDS",
+  "displayName": "&2【素材】納木硬塊",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f納木硬塊是碎塊的上位互換",
+	"&f硬塊能夠制作出更好的物品",
+	"&f是這一帶頗受歡近的素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

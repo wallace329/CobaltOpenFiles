@@ -1,0 +1,26 @@
+{
+  "cobaltId": "ex_Infuse_2",
+  "type": "RED_SAND",
+  "displayName": "&c【素材】血玉沙塵",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f魔法能量絕佳",
+	"&f但其力量十分危險,恐怕有天會失控惹事",
+	"&f是市面上禁用的注魔材料"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

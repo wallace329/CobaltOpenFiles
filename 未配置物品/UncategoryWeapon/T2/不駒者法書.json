@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Unfoal_book",
+  "type": "ENCHANTED_BOOK",
+  "displayName": "&c【武器】不駒者法書",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f「心亙人子」--為東方聞名的鬥者",
+	"&f就算面對如此不堪的戰鬥",
+	"&f都會堅持到戰鬥的最後一刻",
+	"&f往往這份堅持都能把戰況扭轉"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

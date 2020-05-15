@@ -1,0 +1,22 @@
+{
+  "cobaltId": "MUTTON",
+  "type": "MUTTON",
+  "displayName": "&4【食物】羊肉",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f羊肉肉質與牛肉相似",
+	"&f肉質細嫩"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

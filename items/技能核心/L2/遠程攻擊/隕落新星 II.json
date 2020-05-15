@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCFallenStar2",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8隕落新星 II",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"&8➤ &f等級需求: &f10",
+	"&8➤ &f魔力需求: &f每次消耗15點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有44秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f遠程攻擊命中時有&c100%&f機率觸發以下效果:",
+	"&5| &f半徑&c2格&f的怪物會被&c擊飛&f、造成&c10點&f傷害、&c點燃2秒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SKILLCORE": "FallenStar2"
+  },
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

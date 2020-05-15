@@ -1,0 +1,30 @@
+{
+  "cobaltId": "KleinSHOVEL",
+  "type": "DIAMOND_SHOVEL",
+  "displayName": "&a【工具】克萊因之鏟",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f從其他維度的世界取得",
+	"&f自身相交的模樣",
+	"&f就算由技術高超的匠工們也無法合力製成",
+	"&f被世人讚嘆並匹敵莫比烏斯般存在"
+  ],
+  "enchants": {
+	"Unbreaking": 10,
+	"Efficiency": 8,
+	"Infinity": 10,
+	"Mending": 10
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

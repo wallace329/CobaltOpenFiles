@@ -1,0 +1,33 @@
+{
+  "cobaltId": "SCIgnite4",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8點燃 IV",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"&8➤ &f等級需求: &f30",
+	"&8➤ &f魔力需求: &f每次消耗4點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有4秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f造成近戰傷害時有&c100%&f機率觸發以下效果:",
+	"&5| &f點燃該生物&c6秒",
+	"&5| &f造成緩速效果並維持5秒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "Ignite4"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

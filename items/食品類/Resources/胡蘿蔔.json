@@ -1,0 +1,21 @@
+{
+  "cobaltId": "Carrot1",
+  "type": "CARROR",
+  "displayName": "&f【食物】胡蘿蔔",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f可在一般菜園找到的食物素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

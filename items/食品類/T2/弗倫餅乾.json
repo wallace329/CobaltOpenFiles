@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Falun_Cookies",
+  "type": "COOKIE",
+  "displayName": "&b【食物】弗倫餅乾",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f用麵粉烘焙的餅乾",
+	"&f可以恢復1格飢餓值"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

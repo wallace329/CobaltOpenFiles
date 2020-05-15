@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Nano_Wooden_Shield",
+  "type": "WOOD_SWORD",
+  "displayName": "&a【武器】納木製盾",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f製木廠以納木碎塊製成的盾",
+	"&f他的堅固保護了使用者",
+	"&f盾後的人更加安心"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}
+

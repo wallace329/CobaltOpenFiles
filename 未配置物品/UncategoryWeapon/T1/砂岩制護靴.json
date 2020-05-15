@@ -1,0 +1,28 @@
+{
+  "cobaltId": "Sandstone_Boots",
+  "type": "LEATHER_BOOTS",
+  "displayName": "&e【裝備】砂岩制護靴",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f砂岩是利用了聚沙的技術",
+	"&f使砂子變成十分堅硬的硬塊",
+	"&f而由砂岩所製成的裝甲",
+	"&f更能增加使用者的防禦力",
+	"&f是西方都市熱賣的商品之一"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

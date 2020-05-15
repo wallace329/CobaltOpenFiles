@@ -1,0 +1,25 @@
+L3HZ3:
+  SpawnerGroup: L3
+  MobName: Z3
+  World: WV
+  X: -411
+  Y: 37
+  Z: -844
+  Radius: 4
+  UseTimer: true
+  MaxMobs: 1
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 0
+  CooldownTimer: 0
+  Warmup: 3
+  WarmupTimer: 0
+  CheckForPlayers: true
+  ActivationRange: 55
+  LeashRange: 32
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  ShowFlames: false
+  Breakable: false
+  Conditions: []
+  ActiveMobs: 0

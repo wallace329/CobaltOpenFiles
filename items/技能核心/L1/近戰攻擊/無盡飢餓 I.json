@@ -1,0 +1,35 @@
+{
+  "cobaltId": "SCInfHunger1",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8無盡飢餓 I",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f渡劫稀有度: &6✰",
+	"&8➤ &f等級需求: &f無",
+	"&8➤ &f魔力需求: &f無",
+	"",
+	"&8【&6能力限制&8】",
+	"&f無",
+	"",
+	"&8【&6能力描述&8】",
+	"&f近戰攻擊命中時有&c100%&f機率觸發以下效果:",
+	"&5| &f獲得&c長時間&f的&c飢餓X&f效果",
+	"&5| &f對命中生物造成&c緩速I&f效果",
+	"&5| &f治愈自己&c3&f點生命值",
+	"&5| &c5%&f機率觸發&c啃咬&f: 額外造成15點傷害並恢復2點飽食度"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "InfHunger1"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

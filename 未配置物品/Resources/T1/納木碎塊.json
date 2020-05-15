@@ -1,0 +1,26 @@
+{
+  "cobaltId": "NWood",
+  "type": "SPRUCE_LOG",
+  "displayName": "&2【素材】納木碎塊",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f納木常見於塔薩納姆的高山",
+	"&f聞名於柔軟而不易斷裂的特性",
+	"&f同時售價亦對冒險者來說能夠負擔"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

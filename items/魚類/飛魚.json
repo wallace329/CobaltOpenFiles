@@ -1,0 +1,26 @@
+{
+  "cobaltId": "fly_fish",
+  "type": "COD",
+  "displayName": "&b【素材】飛魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f飛魚在海中十分靈活",
+	"&f肉質厚實",
+	"&f彈牙可口"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

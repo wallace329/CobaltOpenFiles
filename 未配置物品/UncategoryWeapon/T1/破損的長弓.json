@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Broken_longbow",
+  "type": "BOW",
+  "displayName": "&f【武器】破損的長弓",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f這是一把使用過的長弓,每一位弓手",
+	"&f都能與他自己的弓進行溝通",
+	"&f而這把破舊的長弓",
+	"&f相信背後也有一個故事"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

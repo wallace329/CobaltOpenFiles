@@ -1,0 +1,36 @@
+{
+  "cobaltId": "LocSelector",
+  "type": "WOODEN_SWORD",
+  "displayName": "&c位置選擇器",
+  "lore": [
+	"",
+	"&8【&6武器資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"&8➤ &f等級需求: &f1",
+	"&8➤ &f武器傷害: &f+4",
+	"",
+	"&8【&6武器傳說&8】",
+	"&f傭兵公會給各位初心者的新手武器",
+	"",
+	"&8【&6武器已裝備技能&8】",
+	"!skills",
+	"",
+	"&8【&6武器能力加成&8】",
+	"!skillModifiers"
+  ],
+  "enchants": {
+    "sharpness": 4
+  },
+  "tags": {
+	"locObserver": "true"
+  },
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": true,
+	"levelRequired": 1,
+	"boundSkills": [],
+	"boundSkillModifiers": [],
+	"additionSkillSlot": 0,
+	"additionSkillModifierSlot": 0
+  }
+}

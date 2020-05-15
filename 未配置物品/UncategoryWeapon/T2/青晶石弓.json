@@ -1,0 +1,28 @@
+{
+  "cobaltId": "Kyanite_BOW",
+  "type": "BOW",
+  "displayName": "&9【武器】青晶石弓",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f青晶石可於大岩洞的深處採集",
+	"&f儘管其在洞中深處便能採得到",
+	"&f但因礦工的等級多數也很低",
+	"&f難以進入深處採集青晶石",
+	"&f所以以其打造出出東西也頗為珍貴"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

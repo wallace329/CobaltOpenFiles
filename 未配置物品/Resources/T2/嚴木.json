@@ -1,0 +1,26 @@
+{
+  "cobaltId": "WOOD_2",
+  "type": "DARK_OAK_LOG",
+  "displayName": "&2【素材】嚴木",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f利用硬木再繼而加工所製成",
+	"&f將木材硬度再一度昇華",
+	"&f使木材重量得而提升之餘"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

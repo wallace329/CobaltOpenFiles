@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Self-defense_short_dagger",
+  "type": "LEVER",
+  "displayName": "&f【武器】防身短匕",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f傭兵公會以低成本大量生產的短匕",
+	"&f匕首使用了經打磨過的銳石作為刀身",
+	"&f即使只是以簡單材質製造出來的防身用具"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

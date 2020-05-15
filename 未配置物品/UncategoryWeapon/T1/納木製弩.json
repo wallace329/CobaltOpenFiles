@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Nano_Wooden_Crossbow",
+  "type": "CROSSBOW",
+  "displayName": "&e【武器】納木製弩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f製木廠以納木碎塊及純絲製成的弩",
+	"&f弩不受歡迎的原因和長弓大同小異",
+	"&f但短弓總是給玩家帶來強大的能力"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}
+

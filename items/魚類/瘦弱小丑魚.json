@@ -1,0 +1,24 @@
+{
+  "cobaltId": "clown_fish",
+  "type": "TROPICAL_FISH",
+  "displayName": "&e【素材】瘦弱小丑魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f樣子像小丑的一條魚"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

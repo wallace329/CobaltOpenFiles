@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCBackWalk1",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8撤步 I",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"&8➤ &f等級需求: &f無",
+	"&8➤ &f魔力需求: &f每次消耗1點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有15秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f左鍵觸發以下效果:",
+	"&5| &f立即向後彈躍"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "BackWalk1"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Infuse_3",
+  "type": "SNOWBALL",
+  "displayName": "&f【素材】魔鶴結晶",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f魔鶴結晶是魔鶴粉的最高結晶",
+	"&f其魔力力量十分優秀",
+	"&f是不可多得的注魔材料"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Sunburst_CROSSBOW",
+  "type": "CROSSBOW",
+  "displayName": "&e【武器】逐陽弩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f用純金打造出來的武器",
+	"&其光亮程度比芒光系列更為優勝",
+	"&亦因此以「逐陽」一詞為武器的名稱"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "cobaltId": "SWEET_BERRIES",
+  "type": "SWEET_BERRIES",
+  "displayName": "&c【食物】甜莓",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f酸酸甜甜的滋味，如同初戀般的滋味",
+	"&f可在一般菜園找到的食物素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

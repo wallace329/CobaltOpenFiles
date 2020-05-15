@@ -1,0 +1,27 @@
+{
+  "cobaltId": "God_Feather_Boots",
+  "type": "leather_boots",
+  "displayName": "&f【裝備】神羽制長靴",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f由上古遺跡所發掘出來的產物",
+	"&f造者使用着不可思議的技術",
+	"&f將每一根金色羽毛都縫接在一起",
+	"&f能給予用者速度方面至上的祝福"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

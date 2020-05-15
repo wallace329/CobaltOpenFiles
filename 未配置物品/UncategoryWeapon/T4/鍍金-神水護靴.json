@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Gold_Plated-Shenshui_Boots",
+  "type": "GOLDEN_BOOTS",
+  "displayName": "&e【裝備】鍍金-神水護靴",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f神匠利用聖地神水打造的護靴",
+	"&f鍍金的材質更使護靴有更高的防禦力",
+	"&f同時亦能維持護靴較輕重量的特質"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

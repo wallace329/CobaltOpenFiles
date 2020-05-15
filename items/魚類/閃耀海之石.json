@@ -1,0 +1,26 @@
+{
+  "cobaltId": "light_stone",
+  "type": "DARK_PRISMARINE",
+  "displayName": "&b【素材】閃耀海之石",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f海中的珍貴礦物",
+	"&f石面會隨著陽光的方向折射出光線",
+	"&f令人目不暇給"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "cobaltId": "Follower_BOW",
+  "type": "BOW",
+  "displayName": "&6【武器】從者護弓",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f里羅帕斯是一戶被魔物滅門的貴族",
+	"&f大部份從者為了保護主人而戰死",
+	"&f戰鬥後剩下的從者",
+	"&f便把遺物都發放到全世界每個各落",
+	"&f從而讓里羅帕斯的精神永不滅"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

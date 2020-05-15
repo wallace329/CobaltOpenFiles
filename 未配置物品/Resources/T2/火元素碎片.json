@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Fire_Fragment_1",
+  "type": "RED_STAINED_GLASS_PANE",
+  "displayName": "&c【素材】火元素碎片",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f小火花的閃耀",
+	"&f是有秩序的火焰所形成的"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

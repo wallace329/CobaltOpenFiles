@@ -1,0 +1,26 @@
+{
+  "cobaltId": "carp_king",
+  "type": "COOKED_SALMON",
+  "displayName": "&c【素材】鮭魚王",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f海洋生物的霸主",
+	"&f據說力氣無人可比",
+	"&f非一般人能捕"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

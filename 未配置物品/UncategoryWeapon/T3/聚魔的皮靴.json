@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Infused_Leather_Boots",
+  "type": "LEATHER_BOOTS",
+  "displayName": "&3【裝備】聚魔的皮靴",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f聚魔靴是上古文明的生產物",
+	"&f能夠聚集大地所擁有的魔氣",
+	"&f加強使用者自身的魔法力量",
+	"&f可算是一件十分稀有的魔法裝備"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

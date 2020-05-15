@@ -1,0 +1,25 @@
+{
+  "cobaltId": "COOKIE",
+  "type": "COOKIE",
+  "displayName": "&6【食物】即吃餅乾",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f小小的一片餅乾",
+	"&f最適合飢餓時吃"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

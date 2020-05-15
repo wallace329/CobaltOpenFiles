@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Italian_vanilla_noodles",
+  "type": "MUSHROOM_STEW",
+  "displayName": "&a【食物】義式香草麵",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f柔軟又富有嚼勁的意大利粉",
+	"&f濃濃的迷迭香欲罷不能"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

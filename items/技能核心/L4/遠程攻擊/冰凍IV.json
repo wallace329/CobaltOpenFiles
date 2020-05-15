@@ -1,0 +1,33 @@
+{
+  "cobaltId": "SCFreezeLong4",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8冰凍 IV",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"&8➤ &f等級需求: &f30",
+	"&8➤ &f魔力需求: &f每次消耗7點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有46秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f右鍵觸發以下效果:",
+	"&f遠程攻擊命中時有&c100%&f機率觸發以下效果:",
+	"&5| &f命中的怪物會被施加&c緩速 III&f，持續&c2秒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "freezelong4"
+},  
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

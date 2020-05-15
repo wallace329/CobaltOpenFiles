@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Ultimate_Curry",
+  "type": "MUSHROOM_STEW",
+  "displayName": "&e【食物】究極咖哩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f使用松露等極其珍貴的調味",
+	"&f並使用上等的內脊豬肉",
+	"&f其香味更繞樑三日"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

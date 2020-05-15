@@ -1,0 +1,25 @@
+{
+  "cobaltId": "NICHOLAS_BROAD_AXE",
+  "type": "STONE_AXE",
+  "displayName": "&7【素材】尼古拉斯的闊斧",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f由禁斷囚禁者尼古拉斯所使用的闊斧",
+	"&f有着難以置信的破壞力及貫穿力"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

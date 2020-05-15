@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Paper_wrapped_chicken",
+  "type": "COOKED_CHICKEN",
+  "displayName": "&6【食物】紙包雞",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f一打開紙就香氣四溢",
+	"&f味道鎖在雞肉裡",
+	"&f肉質鮮嫩"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

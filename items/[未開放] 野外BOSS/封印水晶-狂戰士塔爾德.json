@@ -1,0 +1,22 @@
+{
+  "cobaltId": "CrystalTelder",
+  "type": "EMERALD",
+  "displayName": "&6【信物】&f塔爾德的信念之玉",
+  "lore": [
+	"",
+	"&8【&6水晶定位&8】",
+	"&f塔爾德在其最後一場戰役中被封印於地底城堡中",
+	"&f其憤怒的火焰更能夠將整個城市吞沒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

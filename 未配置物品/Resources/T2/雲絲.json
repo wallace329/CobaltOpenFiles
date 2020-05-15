@@ -1,0 +1,25 @@
+{
+  "cobaltId": "stringT2",
+  "type": "STRING",
+  "displayName": "&f【素材】雲絲",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在附近洞穴內的怪物都有一絲絲的碎絲護身",
+	"&f是只要在討伐後馬上收集便能得手的簡易素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

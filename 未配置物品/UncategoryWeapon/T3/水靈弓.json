@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Water_Spirit_BOW",
+  "type": "BOW",
+  "displayName": "&9【武器】水靈弓",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f從古代遺址中發現出來的產物",
+	"&f即使不熟悉魔力流動的人士",
+	"&f也能能夠清楚地看清裝備的魔力流動",
+	"&f是一件不可多得的逸品"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

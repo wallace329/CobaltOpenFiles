@@ -1,0 +1,27 @@
+{
+  "cobaltId": "goldgun_fish",
+  "type": "COOKED_SALMON",
+  "displayName": "&e【素材】新鮮金槍魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f金槍魚肉質鮮甜",
+	"&f脂肪厚實",
+	"&f味道令人回味無窮",
+	"&f是貴族的常菜"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

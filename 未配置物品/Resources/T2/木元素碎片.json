@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Wood_Fragment_1",
+  "type": "LIME_STAINED_GLASS_PANE",
+  "displayName": "&2【素材】木元素碎片",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f自然能量因經過長時間的積累",
+	"&f卻因為能量太少而無法變得堅硬",
+	"&f還需要一些時間等待"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

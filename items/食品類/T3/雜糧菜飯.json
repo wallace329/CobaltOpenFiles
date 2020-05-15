@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Multigrain_rice",
+  "type": "MUSHROOM_SOUP",
+  "displayName": "&a【食物】雜糧菜飯",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f它是中國菜的主食",
+	"&f休息時進食是非常好的",
+	"&f這是一道容易製作的美味食品"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

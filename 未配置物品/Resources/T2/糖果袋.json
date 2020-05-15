@@ -1,0 +1,26 @@
+{
+  "cobaltId": "SUGAR_1",
+  "type": "FLOWER_POT",
+  "displayName": "&c【素材】糖果袋",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f哈比人所持的糖果袋",
+	"&f聽說該種族能透過吸收糖份那引發出力量",
+	"&f所以他們都會隨身攜帶一個糖果袋"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

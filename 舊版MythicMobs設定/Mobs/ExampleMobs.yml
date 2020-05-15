@@ -1,0 +1,895 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+SkeletalKnight:
+  Type: WITHER_SKELETON
+  Display: '&2Skeletal Knight'
+  Health: 40
+  Damage: 8
+  Drops:
+  - gold_nugget 2 0.5
+  DropsPerLevel:
+  - gold_nugget 1 0.5
+  LevelModifiers:
+  - health 5
+  - damage 0.5
+  Options:
+    MovementSpeed: 0.1
+StaticallyChargedSheep:
+  Type: SHEEP
+  Display: '&bStatically Charged Sheep'
+  Health: 100
+  Damage: 2
+  Options:
+    MovementSpeed: 0.3
+  DamageModifiers:
+  - LIGHTNING 0
+  - FIRE 0.5
+  Skills:
+  - lightning @LivingInRadius{r=10} ~onTimer:100
+AngrySludge:
+  Type: SLIME
+  Display: Angry Sludge
+  Health: 100
+  Damage: 2
+  Options:
+    Size: 20
+    MovementSpeed: 0.1
+    PreventSlimeSplit: true
+    PreventOtherDrops: true
+    MaxCombatDistance: 30
+    KnockbackResistance: 1
+  Skills:
+  - skill{s=AngrySludgePoison} 0.2
+SketlatKing:
+  Type: WITHER_SKELETON
+  Display: '&6Skeleton King'
+  Health: 500
+  Damage: 10
+  Skills:
+  - message{cooldown=20;m="<mob.name><&co> None may challenge the Skeleton King!"} @PlayersInRadius{r=40} ~onCombat >0 0.2
+  - message{m="<mob.name><&co> Ahahahahah! Die, <trigger.name>!"} @PlayersInRadius{r=40} ~onPlayerKill >0 1
+  - skill{s=SummonSkeletons} @Self 0.1
+  - skill{s=SmashAttack} @Target >0 0.2
+  Equipment:
+  - KingsCrown:4
+  - SkeletonKingSword:0
+  Drops:
+  - SkeletonKingDrops
+  Options:
+    AlwaysShowName: true
+    MovementSpeed: 0.2
+    MaxCombatDistance: 25
+    PreventOtherDrops: true
+SkeletalMinion:
+  Type: SKELETON
+  Display: '&2Skeletal Minion'
+  Health: 10
+  Damage: 2
+  Options:
+    MovementSpeed: 0.1
+wolf1: 
+  Type: wolf
+  Display: 魔焰狼
+  Health: 1000
+  Damage: 1
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 1 players
+  Skills:
+  - skill{s=CrushingLeap} @target ~onTimer:300
+  - skill{s=FireballBarrage} @target ~onTimer:150
+  - skill{s=EFFECTWOLF} @self ~onTimer:400
+  Options:
+    PreventOtherDrops: true
+    Angry: true
+MAGICWOLFBOSS: 
+  Type: wolf
+  Display: '§c魔狼王※ §6§lBOSS'
+  Health: 5500
+  Damage: 42
+  AIGoalSelectors:
+  - 0 clear
+  - 1 meleeattack
+  AITargetSelectors:
+  - 1 players
+  Skills:
+  - skill{s=SummonSkeletons} ~onDamaged 1
+  - skill{s=Homer} @target ~onTimer:100
+  - skill{s=CrushingLeap} @target ~onTimer:300
+  - skill{s=FireballBarrage} @target ~onTimer:150
+  - skill{s=EFFECTWOLF} @self ~onTimer:400
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  Options:
+    PreventOtherDrops: true
+    Angry: true
+    FollowRange: 50
+  Drops:
+  - exp 50
+Z1test:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6test&8]'
+  Health: 10
+  Damage: 1
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+  Equipment:
+  - ArZ:4
+  Drops:
+  - exp 1
+  - ArD1 1 0.1
+Z2test:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6test&8]'
+  Health: 8
+  Damage: 1
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+  Equipment:
+  - ArZ:4
+  Drops:
+  - exp 1
+  - ArD1 1 0.1
+Z1:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6LV 1&8]'
+  Health: 80
+  Damage: 5
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+  Equipment:
+  - ArZ:4
+Z3:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6LV 3&8]'
+  Health: 95
+  Damage: 9
+  Options:
+    MovementSpeed: 0.2
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+P2:
+  Type: ZOMBIE
+  Display: '&7野豬&8[&6LV 2&8]'
+  Health: 170
+  Damage: 2
+  Disguise:
+    Type: pig
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 1
+SIL3:
+  Type: CAVE_SPIDER
+  Display: '&7薄弱的洞穴蜘蛛&8[&6LV 3&8]'
+  Health: 100
+  Damage: 6
+  Options:
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+  Drops:
+  - exp 2
+SIL2:
+  Type: CAVE_SPIDER
+  Display: '&7薄弱的洞穴蜘蛛&8[&6LV 2&8]'
+  Health: 100
+  Damage: 9
+  Options:
+    PreventOtherDrops: true
+    PreventBlockInfection: true
+  Drops:
+  - exp 4
+Z5:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6LV 5&8]'
+  Health: 130
+  Damage: 12
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  Drops:
+  - exp 6
+Z6B:
+  Type: skeleton
+  Display: '&7射手殭屍&8[&6LV 6&8]'
+  Health: 120
+  Damage: 12
+  Disguise:
+    Type: zombie
+  AIGoalSelectors:
+  - 0 MoveTowardsTarget
+  - 1 ArrowAttack
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Skills:
+  - skill{s=IceBolt} @target ~onTimer:75
+  Options:
+    MovementSpeed: 0.17
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - ArB:0
+  Drops:
+  - exp 8
+Z7:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6LV 7&8]'
+  Health: 190
+  Damage: 15
+  Options:
+    MovementSpeed: 0.23
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - Ar0:0
+  Drops:
+  - exp 8
+Z8:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6LV 8&8]'
+  Health: 200
+  Damage: 17
+  Options:
+    MovementSpeed: 0.23
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - Ar3:2
+  - Ar0:0
+  Drops:
+  - exp 8
+Z9:
+  Type: ZOMBIE
+  Display: '&7野外殭屍&8[&6LV 9&8]'
+  Health: 250
+  Damage: 19
+  Options:
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - Ar3:2
+  - Ar1:1
+  - Ar0:0
+  Drops:
+  - exp 10
+Z9STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7野外殭屍&8[&6LV 9&8]'
+  Health: 1050
+  Damage: 20
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - Ar3:2
+  - Ar1:1
+  - Ar0:0
+  Drops:
+  - exp 12
+Z10:
+  Type: ZOMBIE
+  Display: '&7魔狼侍者&8[&6LV 19&8]'
+  Health: 670
+  Damage: 35
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+  Equipment:
+  - WOLFHEAD:4
+  - WOLFSHIT:3
+  Drops:
+  - exp 16
+Z10STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7魔狼侍者&8[&6LV 19&8]'
+  Health: 2560
+  Damage: 55
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+  Equipment:
+  - WOLFHEAD:4
+  - WOLFSHIT:3
+  Drops:
+  - exp 26
+ZS10:
+  Type: ZOMBIE
+  Display: '&7薄弱的骷髏&8[&6LV 10&8]'
+  Health: 260
+  Damage: 21
+  Options:
+    MovementSpeed: 0.23
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Disguise:
+    Type: skeleton
+  Equipment:
+  - ZsHead:4
+  - Ar0:0
+  Drops:
+  - exp 10
+Z13:
+  Type: ZOMBIE_VILLAGER
+  Display: '&7礦工殭屍&8[&6LV 13&8]'
+  Health: 355
+  Damage: 24
+  Options:
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - ArM:0
+  Drops:
+  - exp 12
+Z14:
+  Type: ZOMBIE
+  Display: '&7礦工殭屍&8[&6LV 14&8]'
+  Health: 345
+  Damage: 25
+  Options:
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - Ar3:2
+  - ArM1:0
+  Drops:
+  - exp 12
+Z14STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7礦工殭屍&8[&6LV 14&8]'
+  Health: 1000
+  Damage: 30
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - Ar3:2
+  - ArM1:0
+  Drops:
+  - exp 12
+Z15:
+  Type: BABY_ZOMBIE
+  Display: '&7礦工殭屍&8[&6LV 15&8]'
+  Health: 360
+  Damage: 27
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - Ar1:4
+  - Ar2:3
+  - ArM1:0
+  Drops:
+  - exp 12
+COAL16:
+  Type: ZOMBIE
+  Display: '&7受詛咒的煤礦&8[&6LV 16&8]'
+  Health: 380
+  Damage: 32
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - COALBLOCK:4
+  Drops:
+  - exp 14
+  Skills:
+  - potion{type=INVISIBILITY;d=9999999;l=1} @self  ~onSpawn
+IRON18:
+  Type: ZOMBIE
+  Display: '&7受詛咒的鐵礦&8[&6LV 18&8]'
+  Health: 400
+  Damage: 32
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - IRONBLOCK:4
+  Drops:
+  - exp 14
+  Skills:
+  - potion{type=INVISIBILITY;d=9999999;l=1} @self  ~onSpawn
+CLAY17:
+  Type: ZOMBIE
+  Display: '&7受詛咒的礦物&8[&6LV 17&8]'
+  Health: 390
+  Damage: 30
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Equipment:
+  - CLAYBLOCKSTONE:4
+  Dr ops:
+  - exp 14
+  Skills:
+  - potion{type=INVISIBILITY;d=9999999;l=1} @self  ~onSpawn
+S6:
+  Type: SKELETON
+  Display: '&7野外骷髏&8[&6LV 7&8]'
+  Health: 250
+  Damage: 18
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 12
+# Level 20 ##########################
+Z20:
+  Type: ZOMBIE
+  Display: '&7平原強盜&8[&6LV 20&8]'
+  Health: 470
+  Damage: 36
+  Disguise:
+    Type: player
+    Skin: 0Ace
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 12
+Z22:
+  Type: ZOMBIE
+  Display: '&7平原強盜&8[&6LV 22&8]'
+  Health: 490
+  Damage: 38
+  Disguise:
+    Type: player
+    Skin: 0Ace
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 12
+Z24:
+  Type: ZOMBIE
+  Display: '&7墮落的平原強盜&8[&6LV 24&8]'
+  Health: 510
+  Damage: 40
+  Disguise:
+    Type: player
+    Skin: SamPB 
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 12
+Z24STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7墮落的平原強盜&8[&6LV 24&8]'
+  Health: 1310
+  Damage: 45
+  Disguise:
+    Type: player
+    Skin: SamPB 
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 12
+Z26:
+  Type: ZOMBIE
+  Display: '&7人形殭屍&8[&6LV 26&8]'
+  Health: 600
+  Damage: 35
+  Disguise:
+    Type: player
+    Player: "&7人形殭屍&8[&6LV 26&8]"
+    Skin: alex_40
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 12
+Z27:
+  Type: ZOMBIE
+  Display: '&7人形殭屍&8[&6LV 27&8]'
+  Health: 650
+  Damage: 35
+  Disguise:
+    Type: player
+    Player: "&7人形殭屍&8[&6LV 26&8]"
+    Skin: alex_40
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 12
+SP30:
+  Type: CAVE_SPIDER
+  Display: '&7黑森蜘蛛&8[&6LV 30&8]'
+  Health: 580
+  Damage: 53
+  Disguise:
+    Type: spider
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 16
+SP32:
+  Type: CAVE_SPIDER
+  Display: '&7黑森蜘蛛&8[&6LV 32&8]'
+  Health: 600
+  Damage: 56
+  Disguise:
+    Type: spider
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 16
+SP40:
+  Type: CAVE_SPIDER
+  Display: '&7黑森大蜘蛛&8[&6LV 40&8]'
+  Health: 4500
+  Damage: 60
+  Disguise:
+    Type: spider
+  AITargetSelectors:
+  - 0 clear
+  - 1 players
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 100
+Z34:
+  Type: ZOMBIE
+  Display: '&7野牛亡靈&8[&6LV 34&8]'
+  Health: 650
+  Damage: 60
+  Disguise:
+    Type: cow
+  Options:
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 16
+Z35:
+  Type: ZOMBIE
+  Display: '&7亡靈人&8[&6LV 35&8]'
+  Health: 660
+  Damage: 62
+  Disguise:
+    Type: player
+    Skin: Elavet
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 17
+  Skills:
+  - skill{s=SummonSkeletons} ~onDamaged 1
+Z37:
+  Type: ZOMBIE
+  Display: '&7悲慘亡靈人&8[&6LV 37&8]'
+  Health: 680
+  Damage: 64
+  Disguise:
+    Type: player
+    Skin: Elavet
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 18
+Z37STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7悲慘亡靈人&8[&6LV SS37&8]'
+  Health: 1500
+  Damage: 80
+  Disguise:
+    Type: player
+    Skin: Elavet
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 19
+Z38:
+  Type: ZOMBIE
+  Display: '&7亡靈魔法師&8[&6LV 38&8]'
+  Health: 620
+  Damage: 45
+  Disguise:
+    Type: player
+    Skin: MineOps
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 19
+Z40:
+  Type: ZOMBIE
+  Display: '&7黑魔奴隸&8[&6LV 40&8]'
+  Health: 745
+  Damage: 70
+  Disguise:
+    Type: player
+    Skin: Obsequies
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 20
+Z42:
+  Type: ZOMBIE
+  Display: '&7黑魔奴隸&8[&6LV 42&8]'
+  Health: 765
+  Damage: 70
+  Disguise:
+    Type: player
+    Skin: Obsequies
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 25
+Z42STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7黑魔奴隸&8[&6LV 42&8]'
+  Health: 1665
+  Damage: 100
+  Disguise:
+    Type: player
+    Skin: Obsequies
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 35
+Z45:
+  Type: ZOMBIE
+  Display: '&7研究員之魂&8[&6LV 45&8]'
+  Health: 5625
+  Damage: 80
+  Disguise:
+    Type: player
+    Skin: Gearfault
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 37
+Z47:
+  Type: ZOMBIE
+  Display: '&7下水道小惡魔&8[&6LV 47&8]'
+  Health: 1080
+  Damage: 80
+  Disguise:
+    Type: player
+    Skin: Coffeere
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 38
+Z49:
+  Type: ZOMBIE
+  Display: '&7下水道骯髒惡魔&8[&6LV 49&8]'
+  Health: 1100
+  Damage: 84
+  Disguise:
+    Type: player
+    Skin: Allegro
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 39
+Z49STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7下水道骯髒惡魔&8[&6LV 49&8]'
+  Health: 2200
+  Damage: 94
+  Disguise:
+    Type: player
+    Skin: Allegr
+  Options:
+    MovementSpeed: 0.275
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 40
+Z50BOSS:
+  Type: ZOMBIE
+  Display: '&7惡魔漩士-蘭恩&8[&6LV 50&8]'
+  Health: 17500
+  Damage: 85
+  Disguise:
+    Type: player
+    Skin: Creepings 
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 160
+Z53:
+  Type: ZOMBIE
+  Display: '&7特洛伊 一等兵&8[&6LV 53&8]'
+  Health: 1200
+  Damage: 85
+  Disguise:
+    Type: player
+    Skin: a52
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 40
+Z55:
+  Type: ZOMBIE
+  Display: '&7特洛伊 二等兵&8[&6LV 55&8]'
+  Health: 1320
+  Damage: 87
+  Disguise:
+    Type: player
+    Skin: 4zha
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 40
+Z57:
+  Type: ZOMBIE
+  Display: '&7特洛伊 上等兵&8[&6LV 57&8]'
+  Health: 1440
+  Damage: 90
+  Disguise:
+    Type: player
+    Skin: Adi_6
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 40
+Z57STAR:
+  Type: ZOMBIE
+  Display: '&6❈ &7特洛伊 上等兵&8[&6LV 57&8]'
+  Health: 3540
+  Damage: 95
+  Disguise:
+    Type: player
+    Skin: Adi_6
+  Options:
+    MovementSpeed: 0.285
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 40
+Monkey:
+  Type: skeleton
+  Display: "ss"
+  Health: 200
+  Disguise:
+    Type: player
+    Player: "Hangjaissssssssssssssssss"
+    Display: "ss"
+    Skin: Hangjai
+    NameplateOffset: 0.9
+  HealthBar:
+    Enabled: true
+GolemIronOre:
+  Type: ZOMBIE
+  Display: '&7傀儡鐵礦&8[&6LV 25&8]'
+  Health: 750
+  Damage: 35
+  Disguise:
+    Type: player
+    Skin: Coffeere
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 38
+GolemGoldOre:
+  Type: ZOMBIE
+  Display: '&7傀儡金礦&8[&6LV 26&8]'
+  Health: 550
+  Damage: 55
+  Disguise:
+    Type: player
+    Skin: Coffeere
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 38
+BloodOre:
+  Type: ZOMBIE
+  Display: '&7地脈血礦&8[&6LV 31&8]'
+  Health: 1000
+  Damage: 50
+  Disguise:
+    Type: player
+    Skin: Coffeere
+  Options:
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 38
+OreLeader:
+  Type: ZOMBIE
+  Display: '&7礦坑長老&8[&6LV 45&8]'
+  Health: 5000
+  Damage: 25
+  Disguise:
+    Type: player
+    Skin: Coffeere
+  Options:
+    MovementSpeed: 0.52
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Drops:
+  - exp 38

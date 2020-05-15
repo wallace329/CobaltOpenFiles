@@ -1,0 +1,24 @@
+{
+  "cobaltId": "DenseCoalOre",
+  "type": "COAL_ORE",
+  "displayName": "&6【礦物】&f緻密的煤礦",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f礦石內的礦物含量極高"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

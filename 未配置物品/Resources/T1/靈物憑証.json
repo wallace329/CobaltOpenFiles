@@ -1,0 +1,25 @@
+{
+  "cobaltId": "TRADECARD_1",
+  "type": "FEATHER",
+  "displayName": "&3【素材】靈物憑証",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在元素秘境中取得",
+	"&f是靈物交易所的主要資源"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

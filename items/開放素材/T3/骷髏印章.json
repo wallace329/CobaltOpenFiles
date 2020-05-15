@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Seal_1",
+  "type": "GRAY_DYE",
+  "displayName": "&7【素材】骷髏印章",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在特定骷髏屍體上發現的印章",
+	"&f看似骷髏屍體有被修過的痕跡"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

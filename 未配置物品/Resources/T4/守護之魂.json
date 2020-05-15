@@ -1,0 +1,26 @@
+{
+  "cobaltId": "DHEART_1",
+  "type": "DIAMOND",
+  "displayName": "&3【素材】守護之魂",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f被遺忘的守護劍士布蘭特",
+	"&f以往一直保留至今的魂魄",
+	"&f從中也能感受到他強烈的守護之心"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

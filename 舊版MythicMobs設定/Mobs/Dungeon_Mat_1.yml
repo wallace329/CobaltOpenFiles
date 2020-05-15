@@ -1,0 +1,98 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DUNGEONMAT_X:
+  Type: HUSK
+  Display: '軟泥怪&8[&6LV 25&8]'
+  Health: 1000
+  Damage: 20
+  Faction: Monster
+  Equipment:
+  - DUNGEON_FIRE1_HEAD:4
+  - DUNGEON_FIRE1_WEAPON:0
+  - DUNGEON_FIRE1_BODYARMOR:3
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEONMAT_1:
+  Type: ZOMBIE
+  Display: '古癋僵屍&8[&6LV 15&8]'
+  Health: 200
+  Damage: 20
+  Faction: Monster
+  Equipment:
+  - DUNGEON_MAT1_HEAD:4
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEONMAT_2:
+  Type: ZOMBIE
+  Display: '復活的古癋僵屍&8[&6LV 18&8]'
+  Health: 500
+  Damage: 17
+  Faction: Monster
+  Equipment:
+  - DUNGEON_MAT1_HEAD:4
+  - DUNGEON_FIRE1_WEAPON_BIGSWORD:0
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEONMAT_3:
+  Type: HUSK
+  Display: '古癋傀儡&8[&6LV 27&8]'
+  Health: 1000
+  Damage: 17
+  Faction: Monster
+  Equipment:
+  - DUNGEON_MAT1_CREEPER_HEAD:4
+  - DUNGEON_FIRE1_BODYARMOR:3
+  Options:
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEONMAT_4:
+  Type: ZOMBIE
+  Display: '古癋僵屍&8[&6LV 25&8]'
+  Health: 300
+  Damage: 22
+  Faction: Monster
+  Equipment:
+  - DUNGEON_MAT1_HEAD:4
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEONMAT_5:
+  Type: ZOMBIE
+  Display: '復活的古癋僵屍&8[&6LV 25&8]'
+  Health: 700
+  Damage: 22
+  Faction: Monster
+  Equipment:
+  - DUNGEON_MAT1_HEAD:4
+  - DUNGEON_FIRE1_WEAPON_BIGSWORD:0
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn

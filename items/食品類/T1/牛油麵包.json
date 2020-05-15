@@ -1,0 +1,24 @@
+{
+  "cobaltId": "DungeonNewbieBread",
+  "type": "BREAD",
+  "displayName": "&2【食品】&f牛油麵包",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"&8➤ &f等級需求: &f無",
+	"",
+	"&8【&6物品描述&8】",
+	"&f可以食用的一種麵包",
+	"&f對, 真的沒有其他特別的"
+  ],
+  "enchants": {},
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

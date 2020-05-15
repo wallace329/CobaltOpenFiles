@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Magicsy_2",
+  "type": "REDSTONE_ORE",
+  "displayName": "&f【素材】靈魂之石",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f聚集了生命靈魂的原石",
+	"&f據說這是前人因獲得力量而製作的邪器"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,13 @@
+# 
+# This example file shows you how to set up special items
+# for your mobs to equip or drop.
+DUNGEON_MAT1_HEAD:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI2NTUzNDY1MTIwMWNmNTRmZWJkN2Y1YjM3OGNhZWRlYTA5YTVkYjY0NjJiODM5OGE4ODczMjc5Mzk0M2EwIn19fQ==
+DUNGEON_MAT1_CREEPER_HEAD:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdhNjYzNmQ5NmQwOGY2MTkzOWE2MGY1N2VlMGQwMjk5YzBiZDI3M2IyYmQzMGMxZWZlNGY3NGU0MzNhIn19fQ==

@@ -1,0 +1,31 @@
+{
+  "cobaltId": "SCNaturalWind1",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8自然之風 I",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"&8➤ &f等級需求: &f無",
+	"&8➤ &f魔力需求: &f無",
+	"",
+	"&8【&6能力限制&8】",
+	"&f無",
+	"",
+	"&8【&6能力描述&8】",
+	"&f給予持有者&c跑速 I&f效果"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "WindofNature1"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

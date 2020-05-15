@@ -1,0 +1,25 @@
+{
+  "cobaltId": "IF_1",
+  "type": "GHAST_TEAR",
+  "displayName": "&f【素材】鐵屑",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f打鐵途中在地上看到的鐵屑",
+	"&f是貧民窟中貧民的搶手貨"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

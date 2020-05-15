@@ -1,0 +1,238 @@
+TOWERBOSS:
+  Type: Zombie
+  Display: '§c魔塔之主※ §6§lBOSS'
+  Health: 1500
+  Damage: 25
+  Faction: Monster
+  Disguise:
+    Type: player
+    Skin: 'WizardPlay'
+  Equipment:
+  - MAGICTOWERSTICK:0
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=500;display="$h"} @Self ~onSpawn
+TOWERBOSSHARD:
+  Type: Zombie
+  Display: '§c魔塔之主※ §6§lBOSS'
+  Health: 7500
+  Damage: 40
+  Faction: Monster
+  Disguise:
+    Type: player
+    Skin: 'WizardPlay'
+    Player: "§c魔塔之主※ §6§lBOSS"
+  Equipment:
+  - MAGICTOWERSTICK:0
+  Options:
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+TOWERBOSSEXHARD:
+  Type: Zombie
+  Display: '§c魔塔之主※ §6§lFINAL BOSS'
+  Health: 13000
+  Damage: 10
+  Faction: Monster
+  Disguise:
+    Type: player
+    Skin: 'WizardPlay'
+  Equipment:
+  - MAGICTOWERSTICK:0
+  Options:
+    MovementSpeed: 0.32
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Skills:
+  - createhealthbar{o=2.25;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+############hard
+HARD_TOWERSKELETON:
+  Type: SKELETON
+  Display: '魔骸骷髏&8[&6LV 24&8]'
+  Health: 500
+  Damage: 45
+  Faction: Monster
+  Equipment:
+  - ArB:0
+  - Ar1:4
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+HARD_TOWERZOMBIE:
+  Type: ZOMBIE
+  Display: '魔骸殭屍&8[&6LV 25&8]'
+  Health: 550
+  Damage: 35
+  Faction: Monster
+  Equipment:
+  - TOWERHOE:0
+  - Ar1:4
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+HARD_TOWERZOMBIE2:
+  Type: ZOMBIE
+  Display: '魔蒼晶&8[&6LV ?&8]'
+  Health: 520
+  Damage: 30
+  Faction: Monster
+  Equipment:
+  - MCS:0
+  - MCS:4
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Skills:
+  - potion{type=INVISIBILITY;d=9999999;l=1} @self  ~onSpawn
+HARD_TOWERZOMBIE3:
+  Type: ZOMBIE
+  Display: '魔骸殭屍&8[&6LV 25&8]'
+  Health: 550
+  Damage: 35
+  Faction: Monster
+  Equipment:
+  - TOWERHOE:0
+  - Ar1:4
+  - Ar2:3
+  Options:
+    MovementSpeed: 0.28
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+HARD_TOWERZOMBIE4:
+  Type: ZOMBIE
+  Display: '魔骸殭屍&8[&6LV ?&8]'
+  Health: 2000
+  Damage: 50
+  Faction: Monster
+  Equipment:
+  - TOWERHOE:0
+  - Ar1:4
+  - Ar2:3
+  - Ar3:2
+  - Ar4:1
+  Options:
+    MovementSpeed: 0.27
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+##########normal
+TOWERSKELETON:
+  Type: SKELETON
+  Display: '魔骸骷髏&8[&6LV 9&8]'
+  Health: 200
+  Damage: 25
+  Faction: Monster
+  Equipment:
+  - ArB:0
+  - Ar1:4
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+TOWERZOMBIE:
+  Type: ZOMBIE
+  Display: '魔骸殭屍&8[&6LV 10&8]'
+  Health: 250
+  Damage: 23
+  Faction: Monster
+  Equipment:
+  - TOWERHOE:0
+  - Ar1:4
+  Options:
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+TOWERZOMBIE2:
+  Type: ZOMBIE
+  Display: '魔蒼晶&8[&6LV ?&8]'
+  Health: 270
+  Damage: 26
+  Faction: Monster
+  Equipment:
+  - MCS:0
+  - MCS:4
+  Options:
+    MovementSpeed: 0.21
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    ShowHealth: true
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  - changehealthbar{d="[&4>>>&r$h&4<<<&r]"} @Self ~onDamaged
+  - potion{type=INVISIBILITY;d=9999999;l=1} @self  ~onSpawn
+TOWERZOMBIE3:
+  Type: ZOMBIE
+  Display: '魔骸殭屍&8[&6LV 11&8]'
+  Health: 260
+  Damage: 25
+  Faction: Monster
+  Equipment:
+  - TOWERHOE:0
+  - Ar1:4
+  - Ar2:3
+  Options:
+    ShowHealth: true
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Skills:
+  - createhealthbar{o=2.7;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+TOWERZOMBIE4:
+  Type: ZOMBIE
+  Display: '魔骸殭屍&8[&6LV ?&8]'
+  Health: 1000
+  Damage: 35
+  Faction: Monster
+  Equipment:
+  - TOWERHOE:0
+  - Ar1:4
+  - Ar2:3
+  - Ar3:2
+  - Ar4:1
+  Options:
+    MovementSpeed: 0.22
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+  - changehealthbar{d="[&4>>>&r$h&4<<<&r]"} @Self ~onDamaged
+MTOWERHARDSILVERFISH:
+  Type: SILVERFISH
+  Display: '&c邪毒魔魚 LV1'
+  Health: 240
+  Faction: Monster
+  Damage: 5
+  Drops: []
+  DropsPerLevel: []
+  Options:
+    MovementSpeed: 0.345
+MTOWERBIRD:
+  Type: PARROT
+  Display: '&c監視之鳥&8[LV 1]'
+  Health: 240
+  Damage: 1
+  Drops: []
+  DropsPerLevel: []
+  Options:
+    MovementSpeed: 0.345
+MTOWERWOLF:
+  Type: ZOMBIE
+  Display: '&c血踪獵犬&8[LV 1]'
+  Health: 1000
+  Faction: Monster
+  Damage: 10
+  Disguise:
+    Type: WOLF
+  Drops: []
+  DropsPerLevel: []
+  Options:
+    MovementSpeed: 0.345

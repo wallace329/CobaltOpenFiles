@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCNatural10",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8自然之力 X",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"&8➤ &f等級需求: &f90",
+	"&8➤ &f魔力需求: &f每次消耗6點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有5秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f每秒有&c100%&f機率觸發以下效果:",
+	"&5| &f恢復&c13點&f生命值"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "Natural10"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

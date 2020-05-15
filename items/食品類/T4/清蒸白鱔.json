@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Steamed_Eel",
+  "type": "COOKED_COD",
+  "displayName": "&3【食物】清蒸白鱔",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以蒸氣煮鱔魚",
+	"&f味道有純正的鮮味"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

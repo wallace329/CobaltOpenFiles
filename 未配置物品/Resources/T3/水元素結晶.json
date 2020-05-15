@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Crystallization_of_water",
+  "type": "BLUE_STAINED_GLASS",
+  "displayName": "&b【素材】水元素結晶",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f觸摸起來與同海洋般的清涼",
+	"&f卻樣子不像冰與水"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

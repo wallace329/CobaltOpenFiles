@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCWindGift10",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8風之祝福 X",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"&8➤ &f等級需求: &f90",
+	"&8➤ &f魔力需求: &f無",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有10秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f遠程攻擊命中時有&c33%&f機率觸發以下效果:",
+	"&5| &f為自己施加&c跑速 VI&f，持續&c5秒"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"SkillCore": "WindGift10"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

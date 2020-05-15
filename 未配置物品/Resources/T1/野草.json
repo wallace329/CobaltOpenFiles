@@ -1,0 +1,25 @@
+{
+  "cobaltId": "GRASS_1",
+  "type": "GRASS",
+  "displayName": "&2【素材】野草",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在草原上隨處可見的野草",
+	"&f能隱若看出有魔力的存在"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

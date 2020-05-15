@@ -1,0 +1,26 @@
+{
+  "cobaltId": "HardWood",
+  "type": "ACACIA_LOG",
+  "displayName": "&2【素材】嚴木",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f嚴木常見於塔薩納姆的河流附近",
+	"&f這種木以加工後變得堅硬的屬性而聞名",
+	"&f同時售價亦對冒險者來說十分友善"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

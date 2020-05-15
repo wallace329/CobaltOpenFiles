@@ -1,0 +1,22 @@
+{
+  "cobaltId": "EGG",
+  "type": "EGG",
+  "displayName": "&4【食材】雞蛋",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f外有一層硬殼",
+	"&f內則有蛋白及蛋黃部分"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "cobaltId": "Seasoning_powder",
+  "type": "SUGAR",
+  "displayName": "&f【食材】&c綜&6合&a調&b味&d粉",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f能自動根據食材的特性",
+	"&f使味道再次昇華"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

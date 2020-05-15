@@ -1,0 +1,31 @@
+{
+  "cobaltId": "EuclidAXE",
+  "type": "WOODEN_AXE",
+  "displayName": "&7【工具】歐幾里得之斧",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f擁有各種空間的性質",
+	"&f人們觀看時彷如量子糾纏般",
+	"&f它的適性能適應任何維度"
+  ],
+  "enchants": {
+	"Unbreaking": 10,
+	"Efficiency": 8,
+	"luck_of_the_sea": 8,
+	"flame": 8,
+	"power": 8,
+	"Mending": 10
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

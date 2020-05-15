@@ -1,0 +1,77 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DUNGEON_WATER_1:
+  Type: STRAY
+  Display: '水戟守衞&8[&6LV 25&8]'
+  Health: 700
+  Damage: 15
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WATER1_HEAD:4
+  - DUNGEON_WATER1_WEAPON:0
+  - DUNGEON_WATER1_BODYARMOR:3
+  Options:
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEON_WATER_3:
+  Type: STRAY
+  Display: '沛雨大劍手&8[&6LV 27&8]'
+  Health: 1800
+  Damage: 35
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WATER1_HEAD:4
+  - DUNGEON_WATER1_BODYARMOR:3
+  - DUNGEON_WATER1_ARMOR:2
+  - DUNGEON_WATER1_FEET:1
+  - DUNGEON_WATER1_WEAPON_BIGSWORD:0
+  Options:
+    MovementSpeed: 0.29
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEON_WATER_2:
+  Type: STRAY
+  Display: '沛雨守衞&8[&6LV 28&8]'
+  Health: 550
+  Damage: 8
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WATER1_HEAD:4
+  - DUNGEON_WATER1_WEAPON_BOW:0
+  - DUNGEON_WATER1_BODYARMOR:3
+  - DUNGEON_WATER1_ARMOR:2
+  Disguise:
+    Type: SKELETON
+  Options:
+    MovementSpeed: 0.31
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;so=0;iy=false;c=100;display="$h"} @Self ~onSpawn
+DUNGEON_WATER_BOSS:
+  Type: STRAY
+  Display: '§c沛雨守護者◎§6§lBOSS'
+  Health: 3200
+  Damage: 18
+  Faction: Monster
+  Equipment:
+  - DUNGEON_WATER1_HEAD_BOSS:4
+  - DUNGEON_WATER1_WEAPON_BIGSWORD:0
+  - DUNGEON_WATER1_BODYARMOR:3
+  - DUNGEON_WATER1_ARMOR:2
+  Options:
+    MovementSpeed: 0.3
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Skills:
+  - createhealthbar{o=2.75;so=0;fo=0;iy=false;c=100;display="$h"} @Self ~onSpawn

@@ -1,0 +1,26 @@
+{
+  "cobaltId": "VOUCHER_OF_PURGATORY",
+  "type": "PAPER",
+  "displayName": "&4【素材】煉獄的憑證",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f由鎖鏈安魂獄長-斯圖爾特一直保管着的憑證",
+	"&f從來沒有人能從他手上拿走",
+	"&f因此也有煉獄的憑證這個稱呼"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

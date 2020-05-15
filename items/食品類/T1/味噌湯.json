@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Miso_soup",
+  "type": "MUSHROOM_STEW",
+  "displayName": "&6【食物】味噌湯",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以海帶、魚乾、味噌熬製而成",
+	"&f釋放魚乾中的鮮味"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

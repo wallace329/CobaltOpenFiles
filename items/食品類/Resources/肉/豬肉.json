@@ -1,0 +1,22 @@
+{
+  "cobaltId": "pig_meat",
+  "type": "PORKCHOP",
+  "displayName": "&4【食材】豬肉",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f淺紅、肉質結實、紋路清晰",
+	"&f瘦肉與脂肪比例恰好"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

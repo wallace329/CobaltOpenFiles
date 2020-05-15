@@ -1,0 +1,25 @@
+{
+  "cobaltId": "BSTONE_1",
+  "type": "BEETROOT",
+  "displayName": "&4【素材】血精石",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f利用獸人的血所製作的血精石",
+	"&f聞說能夠大幅提升獸人的力量"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

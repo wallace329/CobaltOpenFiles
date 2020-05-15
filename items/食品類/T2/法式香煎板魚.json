@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Pan-fried_French_Fish",
+  "type": "COOKED_COD",
+  "displayName": "&a【食物】法式香煎板魚",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f微微焦色,肉外酥內軟",
+	"&f烹調後更激發出魚的鮮味",
+	"&f其香味欲罷不能"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "cobaltId": "BEETROOT",
+  "type": "BEETROOT",
+  "displayName": "&c【食材】甜菜根",
+  "lore": [
+	"",
+	"&8【&6物品描述&8】",
+	"&f口感甜脆多汁",
+	"&f清爽可口",
+	"&f味道帶點生腥味",
+	"&f可在一般菜園找到的食物素材"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

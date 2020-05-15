@@ -1,0 +1,26 @@
+{
+  "cobaltId": "IRON_2",
+  "type": "IRON_INGOT",
+  "displayName": "&f【素材】純銀",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&fXX鎮附近一帶的生態系",
+	"&f都會長出一棵棵納華樹",
+	"&f納木碎塊正是採集後的物品"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

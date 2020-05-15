@@ -1,0 +1,28 @@
+{
+  "cobaltId": "Nanowood_Longbow",
+  "type": "BOW",
+  "displayName": "&a【武器】納木製長弓",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f製木廠以納木碎塊及純絲製成的長弓",
+	"&f儘管長弓的每發計攻擊力很理想",
+	"&f但也因初心者無法負擔箭矢的需求量",
+	"&f所以被初心者們刻上了最差的武器的稱號"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}
+

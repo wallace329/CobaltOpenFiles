@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Scale_1",
+  "type": "PRISMARINE_CRYSTALS",
+  "displayName": "&b【素材】鱗片碎塊",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f面積只有一小塊的鱗片",
+	"&f看似沒有什麼作用"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

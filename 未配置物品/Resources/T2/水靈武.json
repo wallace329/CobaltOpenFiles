@@ -1,0 +1,27 @@
+{
+  "cobaltId": "WATER_SPIRIT_1",
+  "type": "DIAMOND_CHESTPLATE",
+  "displayName": "&1【素材】水靈武",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以水元素為主體的素材",
+	"&f水靈武即使在所有素材中",
+	"&f也是屬於不可多得的逸品",
+	"&f由其製作的裝備更能體會到其珍貴性"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

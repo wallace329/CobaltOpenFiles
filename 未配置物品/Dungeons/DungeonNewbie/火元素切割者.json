@@ -1,0 +1,43 @@
+{
+  "cobaltId": "DungeonNewbieWand",
+  "type": "BOOK",
+  "displayName": "&2【故事武器】&f火元素切割者",
+  "lore": [
+	"",
+	"&8【&6武器資訊&8】",
+	"&8➤ &f稀有度: &6無法評鑑",
+	"&8➤ &f等級需求: &f突破限制",
+	"&8➤ &f武器傷害: &6無法評鑑",
+	"",
+	"&8【&6武器傳說&8】",
+	"&c來歷不明",
+	"",
+	"&8【&6武器已裝備技能&8】",
+	"!skills",
+	"",
+	"&8【&6武器能力加成&8】",
+	"!skillModifiers"
+  ],
+  "enchants": {
+    "sharpness": 4
+  },
+  "tags": [],
+  "unbreakable": true,
+  "specialModifier": {
+    "requireUpdateLores": true,
+	"levelRequired": 1,
+	"boundSkills": [
+		"firebomb"
+	],
+	"boundSkillModifiers": [
+		{
+			"key": "SkillDamage",
+			"value": "10"
+		},
+		{
+			"key": "SkillCooldownReduce",
+			"value": "1"
+		}
+	]
+  }
+}

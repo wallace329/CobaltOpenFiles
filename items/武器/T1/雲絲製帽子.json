@@ -1,0 +1,28 @@
+{
+  "cobaltId": "Cloud_silk_hat",
+  "type": "LEATHER_HELMET",
+  "displayName": "&f【裝備】雲絲製帽子",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以雲絲作為原料製造而成的帽子",
+	"&f雲絲所給予的任何裝備的韌性",
+	"&f都是在布料中很優秀的屬性",
+	"&而這屬性也造就雲絲系列能夠大賣的原因"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}
+

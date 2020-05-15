@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Magicsy_1",
+  "type": "NAME_TAG",
+  "displayName": "&8【素材】怨恨靈符",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f封印了地獄各種怨恨的靈符",
+	"&f據說這是前人因獲得力量而製作的邪器"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

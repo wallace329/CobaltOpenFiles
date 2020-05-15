@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Infuse_2",
+  "type": "SUGAR",
+  "displayName": "&f【素材】高階魔鶴粉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f高階魔鶴粉含有大量魔力元素",
+	"&f常被用來注魔增強裝備"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

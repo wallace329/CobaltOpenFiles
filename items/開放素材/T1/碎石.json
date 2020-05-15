@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Cobblestone",
+  "type": "COBBLESTONE",
+  "displayName": "&7【素材】碎石",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f隨處可見的一塊石頭",
+	"&f這塊剛好沒那麼粗糙而已"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

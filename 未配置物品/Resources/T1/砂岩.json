@@ -1,0 +1,26 @@
+{
+  "cobaltId": "SSTONE_1",
+  "type": "SANDSTONE",
+  "displayName": "&e【素材】砂岩",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f在沙子經過多年的沉積後",
+	"&f底層的沙便會因而提升硬度",
+	"&f從而成為現在製作武器的材料"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

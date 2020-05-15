@@ -1,0 +1,32 @@
+{
+  "cobaltId": "SCRepeatArrow4",
+  "type": "MAGMA_CREAM",
+  "displayName": "&6【能力核心】&8連環箭 IV",
+  "lore": [
+	"",
+	"&8【&6能力資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"&8➤ &f等級需求: &f30",
+	"&8➤ &f魔力需求: &f每次消耗2點",
+	"",
+	"&8【&6能力限制&8】",
+	"&f能力啟用前有3秒冷卻時間",
+	"",
+	"&8【&6能力描述&8】",
+	"&f遠程攻擊命中時有&c100%&f機率觸發以下效果:",
+	"&5| &f立即射出&c1&f支箭且不消耗任何物品"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": {
+	"Skillcovre": "RepeatArrow4"
+},
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

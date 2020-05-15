@@ -1,0 +1,26 @@
+{
+  "cobaltId": "deepsea_treasure",
+  "type": "CHEST",
+  "displayName": "&6【素材】深海寶藏",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f幽潛於深海傳說般的寶藏",
+	"&f解鎖後有機會出現深海寶藏",
+	"&f注魔至一定程度可解鎖"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

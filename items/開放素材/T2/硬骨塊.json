@@ -1,0 +1,26 @@
+{
+  "cobaltId": "MBONEBLOCK_1",
+  "type": "BONE_BLOCK",
+  "displayName": "&f【素材】硬骨塊",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f利用數個骨頭加工而成的素材",
+	"&f不僅在素材的硬度上有所提升",
+	"&f與武器的相性更是上升到一個更高的層次"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Tempura_Udon",
+  "type": "RABBIT_STEW",
+  "displayName": "&e【食物】天婦羅烏龍麵",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f使用自家農場的小麥粉製作的烏龍麵",
+	"&f並將蝦炸成金黃酥脆",
+	"&f使用醬油製成的湯底",
+	"&f令將所有材料混成一體"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

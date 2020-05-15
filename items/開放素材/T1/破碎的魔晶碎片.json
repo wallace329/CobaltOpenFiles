@@ -1,0 +1,25 @@
+{
+  "cobaltId": "MCS",
+  "type": "PURPLE_STAINED_GLASS",
+  "displayName": "&b【素材】破碎的魔晶碎片",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f已經破碎了的魔晶碎片",
+	"&f但能看出其中仍有殘餘的力量"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

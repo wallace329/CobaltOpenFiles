@@ -1,0 +1,43 @@
+# 
+# These example files show you some of the basic attributes and
+# skills MythicMobs can use. Far more is possible!
+DUNGEONFIRST_PIG_1:
+  Type: ZOMBIE
+  Display: '負傷的野豬&8[&6LV 2&8]'
+  Health: 100
+  Damage: 1
+  Options:
+    MovementSpeed: 0.24
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  Disguise:
+    Type: pig
+DUNGEONFIRST_PIG_2:
+  Type: ZOMBIE
+  Display: '野豬&8[&6LV 3&8]'
+  Health: 110
+  Damage: 2
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+    FollowRange: 30
+  Disguise:
+    Type: pig
+DUNGEONFIRST_WOODMAN:
+  Type: ZOMBIE
+  Display: '訓練用木頭人&8[&6LV 1&8]'
+  Health: 50
+  Disguise:
+    Type: player
+    Player: '訓練用木頭人'
+    Skin: Tree
+  Options:
+    MovementSpeed: 0.26
+    PreventOtherDrops: true
+    KnockbackResistance: 1
+    Despawn: false
+  AIGoalSelectors:
+  - 0 clear

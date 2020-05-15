@@ -1,0 +1,26 @@
+{
+  "cobaltId": "heartT2",
+  "type": "RED_DYE",
+  "displayName": "&4【素材】壞血的心臟",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f部分怪物擁有心臟",
+	"&f離開驅體後便會死去並失去活性",
+	"&f即便如此其魔力引流功能仍是一流"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

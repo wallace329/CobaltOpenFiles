@@ -1,0 +1,25 @@
+{
+  "cobaltId": "broken_glass",
+  "type": "GLASS_BOTTLE",
+  "displayName": "&f【素材】破舊的水瓶",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f黏滿了海藻和沙子的水瓶",
+	"&f可釀造藥水"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

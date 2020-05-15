@@ -1,0 +1,79 @@
+# 
+# CONFIGURATION INFORMATION AVAILABLE AT: http://www.mythicmobs.net
+
+Configuration:
+  Version: 4.0
+  General:
+    AllowMetrics: true
+    CheckForUpdates: true
+    CompatibilityMode: false
+    DebugLevel: 0
+    ErrorLogging: true
+    UseVolatileFeatures: true
+  Clock:
+    ClockInterval: 10
+    SaveInterval: 7
+    SpawnsInterval: 5
+    ScannerInterval: 15
+    CleanupInterval: 650
+  Components:
+    CustomSpawners: true
+    RandomSpawning: true
+  Mobs:
+    DespawnByDefault: true
+    EnableAIModifiers: true
+    EnableTimerSkills: true
+    EnableThreatTables: false
+    EnablePlayerFactions: false
+    EnableLegacySkills: false
+    KillMessagePrefix: ''
+    PreventOtherDropsByDefault: true
+    ShowHealth:
+      Radius: 0
+      Format: <mob.name> - <mob.php> (<mob.hp> / <mob.mhp>)
+    Scaling:
+      Default:
+        Enabled: false
+        PerBlocksFromSpawn: 250
+      world2:
+        Enabled: false
+        PerBlocksFromSpawn: 250
+      world2_nether:
+        Enabled: false
+        PerBlocksFromSpawn: 100
+    DefaultLevelModifiers:
+      Health: 0.1
+      Armor: 0
+      Damage: 0
+      KnockbackResistance: 0
+      Power: 0
+  RandomSpawning:
+    GenerateSpawnPoints: true
+    MaxMobsPerChunk: 5
+    SpawnRadiusPerPlayer: 32
+    SpawnRadiusPerPlayerY: 16
+    DespawnLazyRandomMobs: true
+    MaxGenerationTime: 60
+    PointsPerSecond:
+      Land: 1
+      Air: 0
+      Sea: 0
+      Lava: 0
+      Ground: 0
+  Compatibility:
+    Heroes:
+      Enabled: false
+      ShowXPMessage: true
+      XPMessageFormat: You receive <drops.xp> experience for slaying <mob.name>
+    McMMO:
+      Enabled: false
+      ShowXPMessage: true
+      XPMessageFormat: You receive <drops.xp> experience for slaying <mob.name>
+    SkillAPI:
+      Enabled: false
+      ShowXPMessage: true
+      XPMessageFormat: You receive <drops.xp> experience for slaying <mob.name>
+    Vault:
+      Enabled: true
+      ShowMoneyMessage: false
+      MoneyMessageFormat: You receive <drops.money> currency for slaying <mob.name>

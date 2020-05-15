@@ -1,0 +1,26 @@
+{
+  "cobaltId": "Gold_Plated-Shenshui_BOW",
+  "type": "BOW",
+  "displayName": "&e【武器】鍍金-神水弓",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f神匠利用聖地神水打造的弓",
+	"&f鍍金的材質更使弓有更高的攻擊力",
+	"&f同時亦能維持弓較輕重量的特質"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

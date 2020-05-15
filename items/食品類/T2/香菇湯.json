@@ -1,0 +1,26 @@
+{
+  "cobaltId": "MUSHROOM_STEW",
+  "type": "MUSHROOM_STEW",
+  "displayName": "&6【食物】香菇湯",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f以頓製而成的香菇湯富",
+	"&f激發出香菇的香氣",
+	"&f令湯發出香氣獨特,味道鮮美,營養豐富"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

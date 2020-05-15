@@ -1,0 +1,31 @@
+{
+  "cobaltId": "soilAXE",
+  "type": "WOODEN_AXE",
+  "displayName": "&2【工具】垚垌斧",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f利用高天上的稀土製成",
+	"&f因獨特的習性十分排斥平常看到的泥土",
+	"&f以及所期生長的植物"
+  ],
+  "enchants": {
+	"Unbreaking": 10,
+	"Efficiency": 6,
+	"punch": 8,
+	"piercing": 8,
+	"feather_falling": 8,
+	"Mending": 10
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

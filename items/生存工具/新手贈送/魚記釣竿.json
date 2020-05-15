@@ -1,0 +1,20 @@
+{
+  "cobaltId": "FishBrandFishingRod",
+  "type": "FISHING_ROD",
+  "displayName": "&2【釣竿】&f魚記釣竿",
+  "lore": [
+	"",
+	"&8【&6工具資訊&8】",
+	"&8➤ &f稀有度: &6✰✰✰",
+	"&8➤ &f等級需求: &f無",
+	"",
+	"&8【&6工具傳說&8】",
+	"&f由「魚記」打造的釣竿，似乎能夠增加對魚的吸引力"
+  ],
+  "enchants": {
+    "lure": 2,
+	"unbreaking": 3
+  },
+  "tags": [],
+  "unbreakable": false
+}

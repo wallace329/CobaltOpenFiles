@@ -1,0 +1,25 @@
+{
+  "cobaltId": "Infuse_1",
+  "type": "GUNPOWDER",
+  "displayName": "&7【素材】魔鶴粉",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f魔鶴粉含有一點的魔力元素",
+	"&f常被用來注魔增強裝備"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

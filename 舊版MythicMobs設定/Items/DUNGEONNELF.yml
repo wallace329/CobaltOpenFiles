@@ -1,0 +1,24 @@
+# 
+# This example file shows you how to set up special items
+# for your mobs to equip or drop.
+DUNGEONNELF_ITEM1:
+  Id: 397
+  Data: 3
+  Options:
+    SkinTexture: eyJ0aW1lc3RhbXAiOjE1Mjc4NTIzODYxMzIsInByb2ZpbGVJZCI6IjUxMzc5OTEwNjlkMjQyNWRhZmRiNzg2NzAzYjgwNWQ4IiwicHJvZmlsZU5hbWUiOiJzc2dvbGlua0xlUyIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI4YmQ5Y2I3MzcwNmI2YTcwODZjNDZkMTA1NTQyNTU0ODU0MzdkY2VhMTlkOGM1ZGE5NzA5YmJiZWRmYTliZCJ9fX0=
+DUNGEONNELF_ITEM2:
+  Id: 272
+DUNGEONNELF_ITEM3:
+  Id: 275
+DUNGEONNELF_BODYARMOR:
+  Id: 299
+  Options:
+    Color: 75,0,130
+DUNGEONNELF_ARMOR1:
+  Id: 300
+  Options:
+    Color: 75,0,130
+DUNGEONNELF_FEET1:
+  Id: 301
+  Options:
+    Color: 75,0,130

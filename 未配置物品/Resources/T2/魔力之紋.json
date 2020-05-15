@@ -1,0 +1,25 @@
+{
+  "cobaltId": "BANED_1",
+  "type": "LIGHT_BLUE_GLAZED_TERRACOTTA",
+  "displayName": "&b【素材】魔力之紋",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f魔力之紋通常能於上古遺跡中發現",
+	"&f只要在遺跡中發生魔力跡象的地方便可找得到"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "cobaltId": "Giant_Rock-Rock_Sword",
+  "type": "IRON_SWORD",
+  "displayName": "&7【素材】巨岩-磐石長劍",
+  "lore": [
+	"",
+	"&8【&6物品資訊&8】",
+	"&8➤ &f稀有度: &6✰",
+	"",
+	"&8【&6物品描述&8】",
+	"&f作為守衛者之人士都會持有的一把長劍",
+	"&f長劍蘊含著一顆希望守護一切事物的心",
+	"&f磐石長劍可以說是一件攻守得宜的武器"
+  ],
+  "enchants": {
+	"protection": 1
+  },
+  "tags": [],
+  "unbreakable": false,
+  "specialModifier": {
+    "requireUpdateLores": false,
+	"levelRequired": 0,
+	"boundSkills": [],
+	"boundSkillModifiers": []
+  }
+}
+
